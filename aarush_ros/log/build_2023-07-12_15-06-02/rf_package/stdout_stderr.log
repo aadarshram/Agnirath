@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/rf_package/rf_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/rf_package/rf_package.egg-info/dependency_links.txt
+writing entry points to ../../build/rf_package/rf_package.egg-info/entry_points.txt
+writing requirements to ../../build/rf_package/rf_package.egg-info/requires.txt
+writing top-level names to ../../build/rf_package/rf_package.egg-info/top_level.txt
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+reading manifest file '../../build/rf_package/rf_package.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/rf_package/rf_package.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/rf_package/lib/python3.10/site-packages/rf_package-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/rf_package/rf_package.egg-info to /home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/rf_package/lib/python3.10/site-packages/rf_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rf_node script to /home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/rf_package/lib/rf_package
+writing list of installed files to '/home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/rf_package/install.log'

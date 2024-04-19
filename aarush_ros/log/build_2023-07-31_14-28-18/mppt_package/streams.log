@@ -1,0 +1,27 @@
+[2.520s] Invoking command in '/home/ubuntu/Old_LV/aarush_ros/src/mppt_package': PYTHONPATH=/home/ubuntu/Old_LV/aarush_ros/build/mppt_package/prefix_override:/home/ubuntu/Old_LV/aarush_ros/install/mppt_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mppt_package build --build-base /home/ubuntu/Old_LV/aarush_ros/build/mppt_package/build install --record /home/ubuntu/Old_LV/aarush_ros/build/mppt_package/install.log --single-version-externally-managed
+[3.531s] running egg_info
+[3.534s] writing ../../build/mppt_package/mppt_package.egg-info/PKG-INFO
+[3.537s] writing dependency_links to ../../build/mppt_package/mppt_package.egg-info/dependency_links.txt
+[3.539s] writing entry points to ../../build/mppt_package/mppt_package.egg-info/entry_points.txt
+[3.540s] writing requirements to ../../build/mppt_package/mppt_package.egg-info/requires.txt
+[3.543s] writing top-level names to ../../build/mppt_package/mppt_package.egg-info/top_level.txt
+[3.547s] reading manifest file '../../build/mppt_package/mppt_package.egg-info/SOURCES.txt'
+[3.549s] adding license file 'LICENSE'
+[3.554s] writing manifest file '../../build/mppt_package/mppt_package.egg-info/SOURCES.txt'
+[3.570s] running build
+[3.572s] running build_py
+[3.573s] copying mppt_package/mppt_node.py -> /home/ubuntu/Old_LV/aarush_ros/build/mppt_package/build/lib/mppt_package
+[3.580s] running install
+[3.582s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.584s]   warnings.warn(
+[3.585s] running install_lib
+[3.587s] copying /home/ubuntu/Old_LV/aarush_ros/build/mppt_package/build/lib/mppt_package/mppt_node.py -> /home/ubuntu/Old_LV/aarush_ros/install/mppt_package/lib/python3.10/site-packages/mppt_package
+[3.590s] byte-compiling /home/ubuntu/Old_LV/aarush_ros/install/mppt_package/lib/python3.10/site-packages/mppt_package/mppt_node.py to mppt_node.cpython-310.pyc
+[3.594s] running install_data
+[3.596s] running install_egg_info
+[3.599s] removing '/home/ubuntu/Old_LV/aarush_ros/install/mppt_package/lib/python3.10/site-packages/mppt_package-0.0.0-py3.10.egg-info' (and everything under it)
+[3.601s] Copying ../../build/mppt_package/mppt_package.egg-info to /home/ubuntu/Old_LV/aarush_ros/install/mppt_package/lib/python3.10/site-packages/mppt_package-0.0.0-py3.10.egg-info
+[3.604s] running install_scripts
+[3.680s] Installing mppt_node script to /home/ubuntu/Old_LV/aarush_ros/install/mppt_package/lib/mppt_package
+[3.683s] writing list of installed files to '/home/ubuntu/Old_LV/aarush_ros/build/mppt_package/install.log'
+[3.804s] Invoked command in '/home/ubuntu/Old_LV/aarush_ros/src/mppt_package' returned '0': PYTHONPATH=/home/ubuntu/Old_LV/aarush_ros/build/mppt_package/prefix_override:/home/ubuntu/Old_LV/aarush_ros/install/mppt_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mppt_package build --build-base /home/ubuntu/Old_LV/aarush_ros/build/mppt_package/build install --record /home/ubuntu/Old_LV/aarush_ros/build/mppt_package/install.log --single-version-externally-managed

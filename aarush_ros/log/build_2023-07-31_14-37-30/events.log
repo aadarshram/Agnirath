@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.007212] (-) JobUnselected: {'identifier': 'battery_package'}
+[0.007653] (-) JobUnselected: {'identifier': 'can_package'}
+[0.007811] (-) JobUnselected: {'identifier': 'control_package'}
+[0.007902] (-) JobUnselected: {'identifier': 'display_package'}
+[0.009518] (-) JobUnselected: {'identifier': 'gps_package'}
+[0.009739] (-) JobUnselected: {'identifier': 'imu_package'}
+[0.010025] (-) JobUnselected: {'identifier': 'logging_package'}
+[0.013398] (-) JobUnselected: {'identifier': 'mc_package'}
+[0.015046] (-) JobUnselected: {'identifier': 'mppt_package'}
+[0.015446] (-) JobUnselected: {'identifier': 'my_package'}
+[0.015832] (-) JobUnselected: {'identifier': 'rf_package'}
+[0.016537] (-) JobUnselected: {'identifier': 'test_package'}
+[0.016692] (main_package) JobQueued: {'identifier': 'main_package', 'dependencies': OrderedDict()}
+[0.017699] (main_package) JobStarted: {'identifier': 'main_package'}
+[0.099017] (-) TimerEvent: {}
+[0.200040] (-) TimerEvent: {}
+[0.301232] (-) TimerEvent: {}
+[0.401992] (-) TimerEvent: {}
+[0.504128] (-) TimerEvent: {}
+[0.605653] (-) TimerEvent: {}
+[0.706668] (-) TimerEvent: {}
+[0.807353] (-) TimerEvent: {}
+[0.908641] (-) TimerEvent: {}
+[1.009401] (-) TimerEvent: {}
+[1.110923] (-) TimerEvent: {}
+[1.211945] (-) TimerEvent: {}
+[1.312623] (-) TimerEvent: {}
+[1.413355] (-) TimerEvent: {}
+[1.514061] (-) TimerEvent: {}
+[1.614782] (-) TimerEvent: {}
+[1.715473] (-) TimerEvent: {}
+[1.816252] (-) TimerEvent: {}
+[1.917016] (-) TimerEvent: {}
+[2.017759] (-) TimerEvent: {}
+[2.118467] (-) TimerEvent: {}
+[2.219351] (-) TimerEvent: {}
+[2.320328] (-) TimerEvent: {}
+[2.403992] (main_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/main_package', 'build', '--build-base', '/home/ubuntu/Old_LV/aarush_ros/build/main_package/build', 'install', '--record', '/home/ubuntu/Old_LV/aarush_ros/build/main_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Old_LV/aarush_ros/src/main_package', 'env': {'USER': 'ubuntu', 'SSH_CLIENT': '192.168.7.1 51660 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/ubuntu', 'MOTD_SHOWN': 'pam', 'OLDPWD': '/home/ubuntu/Old_LV/aarush_ros/src/main_package/main_package', 'LESS': '-R', 'SSH_TTY': '/dev/pts/3', 'ZSH': '/home/ubuntu/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'P9K_TTY': 'old', 'ROS_DISTRO': 'iron', 'LOGNAME': 'ubuntu', '_P9K_SSH_TTY': '/dev/pts/3', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'ROS_DOMAIN_ID': '0', 'SHELL': '/bin/zsh', 'P9K_SSH': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/ubuntu/Old_LV/aarush_ros/build/main_package', 'SSH_CONNECTION': '192.168.7.1 51660 192.168.7.2 22', '_P9K_TTY': '/dev/pts/3', 'PYTHONPATH': '/home/ubuntu/Old_LV/aarush_ros/build/main_package/prefix_override:/home/ubuntu/Old_LV/aarush_ros/install/main_package/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[2.420484] (-) TimerEvent: {}
+[2.521752] (-) TimerEvent: {}
+[2.622638] (-) TimerEvent: {}
+[2.723488] (-) TimerEvent: {}
+[2.824258] (-) TimerEvent: {}
+[2.924979] (-) TimerEvent: {}
+[3.025685] (-) TimerEvent: {}
+[3.126441] (-) TimerEvent: {}
+[3.227227] (-) TimerEvent: {}
+[3.306399] (main_package) StdoutLine: {'line': b'running egg_info\n'}
+[3.310262] (main_package) StdoutLine: {'line': b'writing ../../build/main_package/main_package.egg-info/PKG-INFO\n'}
+[3.313538] (main_package) StdoutLine: {'line': b'writing dependency_links to ../../build/main_package/main_package.egg-info/dependency_links.txt\n'}
+[3.315980] (main_package) StdoutLine: {'line': b'writing entry points to ../../build/main_package/main_package.egg-info/entry_points.txt\n'}
+[3.317726] (main_package) StdoutLine: {'line': b'writing requirements to ../../build/main_package/main_package.egg-info/requires.txt\n'}
+[3.319759] (main_package) StdoutLine: {'line': b'writing top-level names to ../../build/main_package/main_package.egg-info/top_level.txt\n'}
+[3.328069] (-) TimerEvent: {}
+[3.329533] (main_package) StdoutLine: {'line': b"reading manifest file '../../build/main_package/main_package.egg-info/SOURCES.txt'\n"}
+[3.337533] (main_package) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.339664] (main_package) StdoutLine: {'line': b"writing manifest file '../../build/main_package/main_package.egg-info/SOURCES.txt'\n"}
+[3.341519] (main_package) StdoutLine: {'line': b'running build\n'}
+[3.343401] (main_package) StdoutLine: {'line': b'running build_py\n'}
+[3.345626] (main_package) StdoutLine: {'line': b'copying main_package/main_node_1.py -> /home/ubuntu/Old_LV/aarush_ros/build/main_package/build/lib/main_package\n'}
+[3.349268] (main_package) StdoutLine: {'line': b'running install\n'}
+[3.351292] (main_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.354727] (main_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.368177] (main_package) StdoutLine: {'line': b'running install_lib\n'}
+[3.368753] (main_package) StdoutLine: {'line': b'copying /home/ubuntu/Old_LV/aarush_ros/build/main_package/build/lib/main_package/main_node_1.py -> /home/ubuntu/Old_LV/aarush_ros/install/main_package/lib/python3.10/site-packages/main_package\n'}
+[3.370264] (main_package) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Old_LV/aarush_ros/install/main_package/lib/python3.10/site-packages/main_package/main_node_1.py to main_node_1.cpython-310.pyc\n'}
+[3.371821] (main_package) StdoutLine: {'line': b'running install_data\n'}
+[3.374491] (main_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.376951] (main_package) StdoutLine: {'line': b"removing '/home/ubuntu/Old_LV/aarush_ros/install/main_package/lib/python3.10/site-packages/main_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.378895] (main_package) StdoutLine: {'line': b'Copying ../../build/main_package/main_package.egg-info to /home/ubuntu/Old_LV/aarush_ros/install/main_package/lib/python3.10/site-packages/main_package-0.0.0-py3.10.egg-info\n'}
+[3.380705] (main_package) StdoutLine: {'line': b'running install_scripts\n'}
+[3.428257] (-) TimerEvent: {}
+[3.444399] (main_package) StdoutLine: {'line': b'Installing main_node script to /home/ubuntu/Old_LV/aarush_ros/install/main_package/lib/main_package\n'}
+[3.446736] (main_package) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Old_LV/aarush_ros/build/main_package/install.log'\n"}
+[3.528513] (-) TimerEvent: {}
+[3.572651] (main_package) CommandEnded: {'returncode': 0}
+[3.630199] (-) TimerEvent: {}
+[3.642080] (main_package) JobEnded: {'identifier': 'main_package', 'rc': 0}
+[3.644809] (-) EventReactorShutdown: {}

@@ -1,0 +1,27 @@
+[3.745s] Invoking command in '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/display_package': PYTHONPATH=/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/display_package/prefix_override:/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/display_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/display_package build --build-base /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/display_package/build install --record /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/display_package/install.log --single-version-externally-managed
+[3.984s] running egg_info
+[3.985s] writing ../../build/display_package/display_package.egg-info/PKG-INFO
+[3.985s] writing dependency_links to ../../build/display_package/display_package.egg-info/dependency_links.txt
+[3.985s] writing entry points to ../../build/display_package/display_package.egg-info/entry_points.txt
+[3.986s] writing requirements to ../../build/display_package/display_package.egg-info/requires.txt
+[3.986s] writing top-level names to ../../build/display_package/display_package.egg-info/top_level.txt
+[3.989s] reading manifest file '../../build/display_package/display_package.egg-info/SOURCES.txt'
+[3.989s] adding license file 'LICENSE'
+[3.990s] writing manifest file '../../build/display_package/display_package.egg-info/SOURCES.txt'
+[3.990s] running build
+[3.990s] running build_py
+[3.990s] copying display_package/display_node_1.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/display_package/build/lib/display_package
+[3.991s] running install
+[3.991s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.992s]   warnings.warn(
+[3.992s] running install_lib
+[3.992s] copying /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/display_package/build/lib/display_package/display_node_1.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/display_package/lib/python3.10/site-packages/display_package
+[3.993s] byte-compiling /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/display_package/lib/python3.10/site-packages/display_package/display_node_1.py to display_node_1.cpython-310.pyc
+[4.011s] running install_data
+[4.011s] running install_egg_info
+[4.013s] removing '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/display_package/lib/python3.10/site-packages/display_package-0.0.0-py3.10.egg-info' (and everything under it)
+[4.013s] Copying ../../build/display_package/display_package.egg-info to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/display_package/lib/python3.10/site-packages/display_package-0.0.0-py3.10.egg-info
+[4.014s] running install_scripts
+[4.033s] Installing display_node script to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/display_package/lib/display_package
+[4.034s] writing list of installed files to '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/display_package/install.log'
+[4.074s] Invoked command in '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/display_package' returned '0': PYTHONPATH=/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/display_package/prefix_override:/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/display_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/display_package build --build-base /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/display_package/build install --record /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/display_package/install.log --single-version-externally-managed

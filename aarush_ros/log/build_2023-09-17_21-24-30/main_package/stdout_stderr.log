@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/main_package/main_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/main_package/main_package.egg-info/dependency_links.txt
+writing entry points to ../../build/main_package/main_package.egg-info/entry_points.txt
+writing requirements to ../../build/main_package/main_package.egg-info/requires.txt
+writing top-level names to ../../build/main_package/main_package.egg-info/top_level.txt
+reading manifest file '../../build/main_package/main_package.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/main_package/main_package.egg-info/SOURCES.txt'
+running build
+running build_py
+copying main_package/main_node_1.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/main_package/build/lib/main_package
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/main_package/build/lib/main_package/main_node_1.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/main_package/lib/python3.10/site-packages/main_package
+byte-compiling /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/main_package/lib/python3.10/site-packages/main_package/main_node_1.py to main_node_1.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/main_package/lib/python3.10/site-packages/main_package-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/main_package/main_package.egg-info to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/main_package/lib/python3.10/site-packages/main_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing main_node script to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/main_package/lib/main_package
+writing list of installed files to '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/main_package/install.log'

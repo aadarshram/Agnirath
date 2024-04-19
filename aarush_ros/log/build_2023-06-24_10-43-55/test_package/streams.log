@@ -1,0 +1,26 @@
+[2.209s] Invoking command in '/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/src/test_package': PYTHONPATH=/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/test_package/prefix_override:/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_package build --build-base /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/test_package/build install --record /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/test_package/install.log --single-version-externally-managed
+[3.051s] running egg_info
+[3.054s] writing ../../build/test_package/test_package.egg-info/PKG-INFO
+[3.055s] writing dependency_links to ../../build/test_package/test_package.egg-info/dependency_links.txt
+[3.056s] writing entry points to ../../build/test_package/test_package.egg-info/entry_points.txt
+[3.057s] writing requirements to ../../build/test_package/test_package.egg-info/requires.txt
+[3.057s] writing top-level names to ../../build/test_package/test_package.egg-info/top_level.txt
+[3.066s] reading manifest file '../../build/test_package/test_package.egg-info/SOURCES.txt'
+[3.066s] adding license file 'LICENSE'
+[3.070s] writing manifest file '../../build/test_package/test_package.egg-info/SOURCES.txt'
+[3.070s] running build
+[3.070s] running build_py
+[3.072s] running install
+[3.072s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.072s]   warnings.warn(
+[3.073s] running install_lib
+[3.078s] running install_data
+[3.081s] running install_egg_info
+[3.086s] removing '/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/python3.10/site-packages/test_package-0.0.0-py3.10.egg-info' (and everything under it)
+[3.087s] Copying ../../build/test_package/test_package.egg-info to /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/python3.10/site-packages/test_package-0.0.0-py3.10.egg-info
+[3.090s] running install_scripts
+[3.165s] Installing pub_node script to /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/test_package
+[3.165s] Installing pub_sub_node script to /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/test_package
+[3.166s] Installing sub_node script to /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/test_package
+[3.167s] writing list of installed files to '/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/test_package/install.log'
+[3.294s] Invoked command in '/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/src/test_package' returned '0': PYTHONPATH=/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/test_package/prefix_override:/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_package build --build-base /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/test_package/build install --record /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/test_package/install.log --single-version-externally-managed

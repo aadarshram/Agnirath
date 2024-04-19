@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/logging_package/logging_package.egg-info/PKG-INFO
+../../build/logging_package/logging_package.egg-info/SOURCES.txt
+../../build/logging_package/logging_package.egg-info/dependency_links.txt
+../../build/logging_package/logging_package.egg-info/entry_points.txt
+../../build/logging_package/logging_package.egg-info/requires.txt
+../../build/logging_package/logging_package.egg-info/top_level.txt
+../../build/logging_package/logging_package.egg-info/zip-safe
+logging_package/__init__.py
+logging_package/logging_node.py
+resource/logging_package
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

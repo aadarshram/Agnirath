@@ -1,0 +1,3 @@
+[console_scripts]
+logging_node = logging_package.logging_node:main
+

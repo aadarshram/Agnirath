@@ -1,0 +1,24 @@
+[2.519s] Invoking command in '/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/src/mc_package': PYTHONPATH=/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/mc_package/prefix_override:/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/mc_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mc_package build --build-base /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/mc_package/build install --record /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/mc_package/install.log --single-version-externally-managed
+[3.538s] running egg_info
+[3.541s] writing ../../build/mc_package/mc_package.egg-info/PKG-INFO
+[3.542s] writing dependency_links to ../../build/mc_package/mc_package.egg-info/dependency_links.txt
+[3.543s] writing entry points to ../../build/mc_package/mc_package.egg-info/entry_points.txt
+[3.543s] writing requirements to ../../build/mc_package/mc_package.egg-info/requires.txt
+[3.544s] writing top-level names to ../../build/mc_package/mc_package.egg-info/top_level.txt
+[3.552s] reading manifest file '../../build/mc_package/mc_package.egg-info/SOURCES.txt'
+[3.560s] adding license file 'LICENSE'
+[3.564s] writing manifest file '../../build/mc_package/mc_package.egg-info/SOURCES.txt'
+[3.564s] running build
+[3.565s] running build_py
+[3.566s] running install
+[3.566s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.567s]   warnings.warn(
+[3.568s] running install_lib
+[3.574s] running install_data
+[3.578s] running install_egg_info
+[3.587s] removing '/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/mc_package/lib/python3.10/site-packages/mc_package-0.0.0-py3.10.egg-info' (and everything under it)
+[3.588s] Copying ../../build/mc_package/mc_package.egg-info to /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/mc_package/lib/python3.10/site-packages/mc_package-0.0.0-py3.10.egg-info
+[3.595s] running install_scripts
+[3.698s] Installing mc_node script to /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/mc_package/lib/mc_package
+[3.700s] writing list of installed files to '/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/mc_package/install.log'
+[3.850s] Invoked command in '/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/src/mc_package' returned '0': PYTHONPATH=/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/mc_package/prefix_override:/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/mc_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mc_package build --build-base /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/mc_package/build install --record /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/mc_package/install.log --single-version-externally-managed

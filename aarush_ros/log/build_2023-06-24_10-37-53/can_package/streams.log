@@ -1,0 +1,30 @@
+[2.150s] Invoking command in '/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/src/can_package': PYTHONPATH=/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/can_package/prefix_override:/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/can_package build --build-base /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/can_package/build install --record /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/can_package/install.log --single-version-externally-managed
+[2.952s] running egg_info
+[2.954s] writing ../../build/can_package/can_package.egg-info/PKG-INFO
+[2.955s] writing dependency_links to ../../build/can_package/can_package.egg-info/dependency_links.txt
+[2.956s] writing entry points to ../../build/can_package/can_package.egg-info/entry_points.txt
+[2.957s] writing requirements to ../../build/can_package/can_package.egg-info/requires.txt
+[2.957s] writing top-level names to ../../build/can_package/can_package.egg-info/top_level.txt
+[2.965s] reading manifest file '../../build/can_package/can_package.egg-info/SOURCES.txt'
+[2.966s] adding license file 'LICENSE'
+[2.969s] writing manifest file '../../build/can_package/can_package.egg-info/SOURCES.txt'
+[2.970s] running build
+[2.970s] running build_py
+[2.973s] running install
+[2.973s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.974s]   warnings.warn(
+[2.974s] running install_lib
+[2.980s] byte-compiling /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/python3.10/site-packages/can_package/mc_can_data_pkt.py to mc_can_data_pkt.cpython-310.pyc
+[2.981s] byte-compiling /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/python3.10/site-packages/can_package/py_tools_test.py to py_tools_test.cpython-310.pyc
+[2.982s] byte-compiling /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/python3.10/site-packages/can_package/can_rx_node.py to can_rx_node.cpython-310.pyc
+[2.985s] running install_data
+[2.987s] running install_egg_info
+[2.992s] removing '/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/python3.10/site-packages/can_package-0.0.0-py3.10.egg-info' (and everything under it)
+[2.993s] Copying ../../build/can_package/can_package.egg-info to /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/python3.10/site-packages/can_package-0.0.0-py3.10.egg-info
+[2.996s] running install_scripts
+[3.067s] Installing can_node_sim script to /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/can_package
+[3.073s] Installing can_rx_node script to /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/can_package
+[3.074s] Installing can_rx_node_dup script to /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/can_package
+[3.075s] Installing can_tx_node script to /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/can_package
+[3.076s] writing list of installed files to '/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/can_package/install.log'
+[3.195s] Invoked command in '/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/src/can_package' returned '0': PYTHONPATH=/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/can_package/prefix_override:/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/can_package build --build-base /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/can_package/build install --record /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/can_package/install.log --single-version-externally-managed

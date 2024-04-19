@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/can_package/can_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/can_package/can_package.egg-info/dependency_links.txt
+writing entry points to ../../build/can_package/can_package.egg-info/entry_points.txt
+writing requirements to ../../build/can_package/can_package.egg-info/requires.txt
+writing top-level names to ../../build/can_package/can_package.egg-info/top_level.txt
+reading manifest file '../../build/can_package/can_package.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/can_package/can_package.egg-info/SOURCES.txt'
+running build
+running build_py
+copying can_package/can_rx_node_v3.py -> /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/can_package/build/lib/can_package
+running install
+running install_lib
+copying /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/can_package/build/lib/can_package/can_rx_node_v3.py -> /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/python3.10/site-packages/can_package
+byte-compiling /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/python3.10/site-packages/can_package/can_rx_node_v3.py to can_rx_node_v3.cpython-310.pyc
+byte-compiling /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/python3.10/site-packages/can_package/can_rx_node_dup.py to can_rx_node_dup.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/python3.10/site-packages/can_package-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/can_package/can_package.egg-info to /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/python3.10/site-packages/can_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing can_node_sim script to /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/can_package
+Installing can_rx_node script to /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/can_package
+Installing can_rx_node_dup script to /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/can_package
+Installing can_rx_node_v3 script to /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/can_package
+Installing can_tx_node script to /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/can_package/lib/can_package
+writing list of installed files to '/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/can_package/install.log'

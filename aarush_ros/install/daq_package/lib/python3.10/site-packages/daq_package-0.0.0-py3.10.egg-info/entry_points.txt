@@ -1,0 +1,3 @@
+[console_scripts]
+daq_node = daq_package.daq_node:main
+

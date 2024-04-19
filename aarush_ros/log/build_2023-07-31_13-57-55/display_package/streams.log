@@ -1,0 +1,24 @@
+[3.326s] Invoking command in '/home/ubuntu/Old_LV/aarush_ros/src/display_package': PYTHONPATH=/home/ubuntu/Old_LV/aarush_ros/build/display_package/prefix_override:/home/ubuntu/Old_LV/aarush_ros/install/display_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/display_package build --build-base /home/ubuntu/Old_LV/aarush_ros/build/display_package/build install --record /home/ubuntu/Old_LV/aarush_ros/build/display_package/install.log --single-version-externally-managed
+[4.374s] running egg_info
+[4.378s] writing ../../build/display_package/display_package.egg-info/PKG-INFO
+[4.381s] writing dependency_links to ../../build/display_package/display_package.egg-info/dependency_links.txt
+[4.383s] writing entry points to ../../build/display_package/display_package.egg-info/entry_points.txt
+[4.384s] writing requirements to ../../build/display_package/display_package.egg-info/requires.txt
+[4.386s] writing top-level names to ../../build/display_package/display_package.egg-info/top_level.txt
+[4.417s] reading manifest file '../../build/display_package/display_package.egg-info/SOURCES.txt'
+[4.425s] adding license file 'LICENSE'
+[4.429s] writing manifest file '../../build/display_package/display_package.egg-info/SOURCES.txt'
+[4.430s] running build
+[4.431s] running build_py
+[4.433s] running install
+[4.435s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.435s]   warnings.warn(
+[4.437s] running install_lib
+[4.444s] running install_data
+[4.447s] running install_egg_info
+[4.458s] removing '/home/ubuntu/Old_LV/aarush_ros/install/display_package/lib/python3.10/site-packages/display_package-0.0.0-py3.10.egg-info' (and everything under it)
+[4.462s] Copying ../../build/display_package/display_package.egg-info to /home/ubuntu/Old_LV/aarush_ros/install/display_package/lib/python3.10/site-packages/display_package-0.0.0-py3.10.egg-info
+[4.470s] running install_scripts
+[4.577s] Installing display_node script to /home/ubuntu/Old_LV/aarush_ros/install/display_package/lib/display_package
+[4.580s] writing list of installed files to '/home/ubuntu/Old_LV/aarush_ros/build/display_package/install.log'
+[5.668s] Invoked command in '/home/ubuntu/Old_LV/aarush_ros/src/display_package' returned '0': PYTHONPATH=/home/ubuntu/Old_LV/aarush_ros/build/display_package/prefix_override:/home/ubuntu/Old_LV/aarush_ros/install/display_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/display_package build --build-base /home/ubuntu/Old_LV/aarush_ros/build/display_package/build install --record /home/ubuntu/Old_LV/aarush_ros/build/display_package/install.log --single-version-externally-managed

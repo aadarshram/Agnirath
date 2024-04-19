@@ -1,0 +1,24 @@
+[3.653s] Invoking command in '/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/src/imu_package': PYTHONPATH=/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/imu_package/prefix_override:/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/imu_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/imu_package build --build-base /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/imu_package/build install --record /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/imu_package/install.log --single-version-externally-managed
+[4.680s] running egg_info
+[4.684s] writing ../../build/imu_package/imu_package.egg-info/PKG-INFO
+[4.685s] writing dependency_links to ../../build/imu_package/imu_package.egg-info/dependency_links.txt
+[4.686s] writing entry points to ../../build/imu_package/imu_package.egg-info/entry_points.txt
+[4.687s] writing requirements to ../../build/imu_package/imu_package.egg-info/requires.txt
+[4.687s] writing top-level names to ../../build/imu_package/imu_package.egg-info/top_level.txt
+[4.696s] reading manifest file '../../build/imu_package/imu_package.egg-info/SOURCES.txt'
+[4.697s] adding license file 'LICENSE'
+[4.701s] writing manifest file '../../build/imu_package/imu_package.egg-info/SOURCES.txt'
+[4.701s] running build
+[4.702s] running build_py
+[4.703s] running install
+[4.703s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.704s]   warnings.warn(
+[4.705s] running install_lib
+[4.710s] running install_data
+[4.712s] running install_egg_info
+[4.719s] removing '/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/imu_package/lib/python3.10/site-packages/imu_package-0.0.0-py3.10.egg-info' (and everything under it)
+[4.720s] Copying ../../build/imu_package/imu_package.egg-info to /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/imu_package/lib/python3.10/site-packages/imu_package-0.0.0-py3.10.egg-info
+[4.723s] running install_scripts
+[4.807s] Installing imu_node script to /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/imu_package/lib/imu_package
+[4.809s] writing list of installed files to '/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/imu_package/install.log'
+[4.955s] Invoked command in '/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/src/imu_package' returned '0': PYTHONPATH=/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/imu_package/prefix_override:/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/install/imu_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/imu_package build --build-base /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/imu_package/build install --record /home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/build/imu_package/install.log --single-version-externally-managed

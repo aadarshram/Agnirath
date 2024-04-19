@@ -1,0 +1,30 @@
+[3.586s] Invoking command in '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/logging_package': PYTHONPATH=/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/logging_package/prefix_override:/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/logging_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/logging_package build --build-base /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/logging_package/build install --record /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/logging_package/install.log --single-version-externally-managed
+[4.067s] running egg_info
+[4.067s] writing ../../build/logging_package/logging_package.egg-info/PKG-INFO
+[4.068s] writing dependency_links to ../../build/logging_package/logging_package.egg-info/dependency_links.txt
+[4.068s] writing entry points to ../../build/logging_package/logging_package.egg-info/entry_points.txt
+[4.068s] writing requirements to ../../build/logging_package/logging_package.egg-info/requires.txt
+[4.068s] writing top-level names to ../../build/logging_package/logging_package.egg-info/top_level.txt
+[4.071s] reading manifest file '../../build/logging_package/logging_package.egg-info/SOURCES.txt'
+[4.071s] adding license file 'LICENSE'
+[4.073s] writing manifest file '../../build/logging_package/logging_package.egg-info/SOURCES.txt'
+[4.073s] running build
+[4.073s] running build_py
+[4.073s] copying logging_package/__init__.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/logging_package/build/lib/logging_package
+[4.073s] copying logging_package/logging_node.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/logging_package/build/lib/logging_package
+[4.074s] running install
+[4.074s] running install_lib
+[4.075s] copying /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/logging_package/build/lib/logging_package/__init__.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/logging_package/lib/python3.10/site-packages/logging_package
+[4.075s] copying /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/logging_package/build/lib/logging_package/logging_node.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/logging_package/lib/python3.10/site-packages/logging_package
+[4.076s] byte-compiling /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/logging_package/lib/python3.10/site-packages/logging_package/__init__.py to __init__.cpython-310.pyc
+[4.076s] byte-compiling /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/logging_package/lib/python3.10/site-packages/logging_package/logging_node.py to logging_node.cpython-310.pyc
+[4.077s] running install_data
+[4.077s] copying resource/logging_package -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/logging_package/share/ament_index/resource_index/packages
+[4.078s] copying package.xml -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/logging_package/share/logging_package
+[4.078s] running install_egg_info
+[4.080s] removing '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/logging_package/lib/python3.10/site-packages/logging_package-0.0.0-py3.10.egg-info' (and everything under it)
+[4.080s] Copying ../../build/logging_package/logging_package.egg-info to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/logging_package/lib/python3.10/site-packages/logging_package-0.0.0-py3.10.egg-info
+[4.081s] running install_scripts
+[4.110s] Installing logging_node script to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/logging_package/lib/logging_package
+[4.111s] writing list of installed files to '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/logging_package/install.log'
+[4.190s] Invoked command in '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/logging_package' returned '0': PYTHONPATH=/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/logging_package/prefix_override:/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/logging_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/logging_package build --build-base /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/logging_package/build install --record /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/logging_package/install.log --single-version-externally-managed

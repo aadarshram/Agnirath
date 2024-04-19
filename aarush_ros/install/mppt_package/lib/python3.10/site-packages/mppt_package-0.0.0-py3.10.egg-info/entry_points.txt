@@ -1,0 +1,3 @@
+[console_scripts]
+mppt_node = mppt_package.mppt_node:main
+

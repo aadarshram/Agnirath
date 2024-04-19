@@ -1,0 +1,22 @@
+[3.621s] Invoking command in '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/mppt_package': PYTHONPATH=/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/prefix_override:/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/mppt_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mppt_package build --build-base /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/build install --record /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/install.log --single-version-externally-managed
+[4.003s] running egg_info
+[4.004s] writing ../../build/mppt_package/mppt_package.egg-info/PKG-INFO
+[4.004s] writing dependency_links to ../../build/mppt_package/mppt_package.egg-info/dependency_links.txt
+[4.004s] writing entry points to ../../build/mppt_package/mppt_package.egg-info/entry_points.txt
+[4.004s] writing requirements to ../../build/mppt_package/mppt_package.egg-info/requires.txt
+[4.004s] writing top-level names to ../../build/mppt_package/mppt_package.egg-info/top_level.txt
+[4.006s] reading manifest file '../../build/mppt_package/mppt_package.egg-info/SOURCES.txt'
+[4.007s] adding license file 'LICENSE'
+[4.007s] writing manifest file '../../build/mppt_package/mppt_package.egg-info/SOURCES.txt'
+[4.007s] running build
+[4.008s] running build_py
+[4.008s] running install
+[4.008s] running install_lib
+[4.009s] running install_data
+[4.010s] running install_egg_info
+[4.011s] removing '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/mppt_package/lib/python3.10/site-packages/mppt_package-0.0.0-py3.10.egg-info' (and everything under it)
+[4.011s] Copying ../../build/mppt_package/mppt_package.egg-info to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/mppt_package/lib/python3.10/site-packages/mppt_package-0.0.0-py3.10.egg-info
+[4.012s] running install_scripts
+[4.032s] Installing mppt_node script to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/mppt_package/lib/mppt_package
+[4.032s] writing list of installed files to '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/install.log'
+[4.071s] Invoked command in '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/mppt_package' returned '0': PYTHONPATH=/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/prefix_override:/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/mppt_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mppt_package build --build-base /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/build install --record /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/install.log --single-version-externally-managed

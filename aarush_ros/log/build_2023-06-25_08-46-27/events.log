@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000594] (-) JobUnselected: {'identifier': 'can_package'}
+[0.001007] (-) JobUnselected: {'identifier': 'control_package'}
+[0.001622] (-) JobUnselected: {'identifier': 'gps_package'}
+[0.001699] (-) JobUnselected: {'identifier': 'main_package'}
+[0.001736] (-) JobUnselected: {'identifier': 'test_package'}
+[0.001821] (message_interfaces) JobQueued: {'identifier': 'message_interfaces', 'dependencies': OrderedDict()}
+[0.001842] (message_interfaces) JobStarted: {'identifier': 'message_interfaces'}
+[0.010923] (message_interfaces) JobProgress: {'identifier': 'message_interfaces', 'progress': 'cmake'}
+[0.011263] (message_interfaces) Command: {'cmd': ['/home/jaay/.local/bin/cmake', '/home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/src/message_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/install/message_interfaces'], 'cwd': '/home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/build/message_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LANGUAGE', 'en_IN:en'), ('USER', 'jaay'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('PERL_LOCAL_LIB_ROOT', '/home/jaay/perl5:/home/jaay/perl5'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/jaay'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/src'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ZSH', '/home/jaay/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('MANAGERPID', '2414'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2759'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17353'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'jaay'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:42264'), ('_P9K_SSH_TTY', '/dev/pts/2'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/jaay'), ('USERNAME', 'jaay'), ('PERL_MB_OPT', '--install_base "/home/jaay/perl5"'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/jaay/.cargo/bin:/home/jaay/.local/bin/home/jaay/perl5/bin:/opt/ros/iron/bin:/home/jaay/.cargo/bin:/home/jaay/.local/bin/home/jaay/perl5/bin:/home/jaay/.local/bin:/home/jaay/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jaay/.spicetify:/home/jaay/.spicetify'), ('SESSION_MANAGER', 'local/zephyrus-g15:@/tmp/.ICE-unix/2737,unix/zephyrus-g15:/tmp/.ICE-unix/2737'), ('INVOCATION_ID', 'edefdb28b2a04339ac7b9911db453cb8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_MENU_PREFIX', 'gnome-'), ('GDK_BACKEND', 'x11'), ('PERL5LIB', '/home/jaay/perl5/lib/perl5:/home/jaay/perl5/lib/perl5'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('VSCODE_INJECTION', '1'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-66ff086605.sock'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ROS_DOMAIN_ID', '0'), ('SHELL', '/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('PERL_MM_OPT', 'INSTALL_BASE=/home/jaay/perl5'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('VSCODE_NONCE', 'c9392d32-c7ed-4dae-8c2f-2305b29bf856'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/build/message_interfaces'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/jaay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZDOTDIR', '/home/jaay'), ('_P9K_TTY', '/dev/pts/2'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.099780] (-) TimerEvent: {}
+[0.102271] (message_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.163227] (message_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.172402] (message_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199907] (-) TimerEvent: {}
+[0.221139] (message_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.228818] (message_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.229242] (message_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.229707] (message_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.233001] (message_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.285464] (message_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.293638] (message_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.294196] (message_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.294329] (message_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.297167] (message_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.2 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.299966] (-) TimerEvent: {}
+[0.400218] (-) TimerEvent: {}
+[0.500768] (-) TimerEvent: {}
+[0.554794] (message_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.600861] (-) TimerEvent: {}
+[0.621259] (message_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)\n'}
+[0.677519] (message_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.688309] (message_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.700935] (-) TimerEvent: {}
+[0.704831] (message_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.725112] (message_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801047] (-) TimerEvent: {}
+[0.816456] (message_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[0.827035] (message_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.0 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[0.901140] (-) TimerEvent: {}
+[0.918918] (message_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/iron/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):\n'}
+[0.919126] (message_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name\n'}
+[0.919195] (message_interfaces) StderrLine: {'line': b'  message_interfaces --arguments-file\n'}
+[0.919279] (message_interfaces) StderrLine: {'line': b'  /home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/build/message_interfaces/rosidl_adapter__arguments__message_interfaces.json\n'}
+[0.919337] (message_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[0.919386] (message_interfaces) StderrLine: {'line': b'  /home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/build/message_interfaces/rosidl_adapter/message_interfaces\n'}
+[0.919438] (message_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[0.919487] (message_interfaces) StderrLine: {'line': b'  /home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/build/message_interfaces/rosidl_adapter/message_interfaces.idls)\n'}
+[0.919533] (message_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.919580] (message_interfaces) StderrLine: {'line': b'\n'}
+[0.919643] (message_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.919806] (message_interfaces) StderrLine: {'line': b'\n'}
+[0.919941] (message_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[0.920052] (message_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.920163] (message_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[0.920275] (message_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.920385] (message_interfaces) StderrLine: {'line': b'    File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.920496] (message_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.920605] (message_interfaces) StderrLine: {'line': b'    File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.920712] (message_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.920824] (message_interfaces) StderrLine: {'line': b'    File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[0.920924] (message_interfaces) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[0.920958] (message_interfaces) StderrLine: {'line': b'    File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[0.920994] (message_interfaces) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[0.921035] (message_interfaces) StderrLine: {'line': b'    File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 545, in parse_message_string\n'}
+[0.921070] (message_interfaces) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[0.921103] (message_interfaces) StderrLine: {'line': b'    File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 389, in __init__\n'}
+[0.921137] (message_interfaces) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[0.921170] (message_interfaces) StderrLine: {'line': b'    File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 206, in __init__\n'}
+[0.921205] (message_interfaces) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[0.921240] (message_interfaces) StderrLine: {'line': b'\n'}
+[0.921275] (message_interfaces) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'num' is an invalid message\n"}
+[0.921313] (message_interfaces) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[0.921349] (message_interfaces) StderrLine: {'line': b'\n'}
+[0.921383] (message_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.921418] (message_interfaces) StderrLine: {'line': b'  /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)\n'}
+[0.921453] (message_interfaces) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[0.921489] (message_interfaces) StderrLine: {'line': b'\n'}
+[0.921526] (message_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.921564] (message_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.928208] (message_interfaces) CommandEnded: {'returncode': 1}
+[0.958783] (message_interfaces) JobEnded: {'identifier': 'message_interfaces', 'rc': 1}
+[0.969367] (-) EventReactorShutdown: {}

@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/mc_package/mc_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/mc_package/mc_package.egg-info/dependency_links.txt
+writing entry points to ../../build/mc_package/mc_package.egg-info/entry_points.txt
+writing requirements to ../../build/mc_package/mc_package.egg-info/requires.txt
+writing top-level names to ../../build/mc_package/mc_package.egg-info/top_level.txt
+reading manifest file '../../build/mc_package/mc_package.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/mc_package/mc_package.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mc_package/mc_node.py -> /home/ubuntu/Old_LV/aarush_ros/build/mc_package/build/lib/mc_package
+running install
+running install_lib
+copying /home/ubuntu/Old_LV/aarush_ros/build/mc_package/build/lib/mc_package/mc_node.py -> /home/ubuntu/Old_LV/aarush_ros/install/mc_package/lib/python3.10/site-packages/mc_package
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+byte-compiling /home/ubuntu/Old_LV/aarush_ros/install/mc_package/lib/python3.10/site-packages/mc_package/mc_node_bkup.py to mc_node_bkup.cpython-310.pyc
+byte-compiling /home/ubuntu/Old_LV/aarush_ros/install/mc_package/lib/python3.10/site-packages/mc_package/mc_node.py to mc_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/ubuntu/Old_LV/aarush_ros/install/mc_package/lib/python3.10/site-packages/mc_package-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/mc_package/mc_package.egg-info to /home/ubuntu/Old_LV/aarush_ros/install/mc_package/lib/python3.10/site-packages/mc_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mc_node script to /home/ubuntu/Old_LV/aarush_ros/install/mc_package/lib/mc_package
+writing list of installed files to '/home/ubuntu/Old_LV/aarush_ros/build/mc_package/install.log'
