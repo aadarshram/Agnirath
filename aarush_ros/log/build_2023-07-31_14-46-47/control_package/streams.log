@@ -1,0 +1,27 @@
+[2.284s] Invoking command in '/home/ubuntu/Old_LV/aarush_ros/src/control_package': PYTHONPATH=/home/ubuntu/Old_LV/aarush_ros/build/control_package/prefix_override:/home/ubuntu/Old_LV/aarush_ros/install/control_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control_package build --build-base /home/ubuntu/Old_LV/aarush_ros/build/control_package/build install --record /home/ubuntu/Old_LV/aarush_ros/build/control_package/install.log --single-version-externally-managed
+[3.191s] running egg_info
+[3.194s] writing ../../build/control_package/control_package.egg-info/PKG-INFO
+[3.195s] writing dependency_links to ../../build/control_package/control_package.egg-info/dependency_links.txt
+[3.197s] writing entry points to ../../build/control_package/control_package.egg-info/entry_points.txt
+[3.197s] writing requirements to ../../build/control_package/control_package.egg-info/requires.txt
+[3.198s] writing top-level names to ../../build/control_package/control_package.egg-info/top_level.txt
+[3.205s] reading manifest file '../../build/control_package/control_package.egg-info/SOURCES.txt'
+[3.206s] adding license file 'LICENSE'
+[3.208s] writing manifest file '../../build/control_package/control_package.egg-info/SOURCES.txt'
+[3.209s] running build
+[3.210s] running build_py
+[3.210s] copying control_package/control_node.py -> /home/ubuntu/Old_LV/aarush_ros/build/control_package/build/lib/control_package
+[3.213s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.213s]   warnings.warn(
+[3.213s] running install
+[3.214s] running install_lib
+[3.220s] copying /home/ubuntu/Old_LV/aarush_ros/build/control_package/build/lib/control_package/control_node.py -> /home/ubuntu/Old_LV/aarush_ros/install/control_package/lib/python3.10/site-packages/control_package
+[3.221s] byte-compiling /home/ubuntu/Old_LV/aarush_ros/install/control_package/lib/python3.10/site-packages/control_package/control_node.py to control_node.cpython-310.pyc
+[3.221s] running install_data
+[3.224s] running install_egg_info
+[3.228s] removing '/home/ubuntu/Old_LV/aarush_ros/install/control_package/lib/python3.10/site-packages/control_package-0.0.0-py3.10.egg-info' (and everything under it)
+[3.230s] Copying ../../build/control_package/control_package.egg-info to /home/ubuntu/Old_LV/aarush_ros/install/control_package/lib/python3.10/site-packages/control_package-0.0.0-py3.10.egg-info
+[3.232s] running install_scripts
+[3.305s] Installing control_node script to /home/ubuntu/Old_LV/aarush_ros/install/control_package/lib/control_package
+[3.306s] writing list of installed files to '/home/ubuntu/Old_LV/aarush_ros/build/control_package/install.log'
+[3.429s] Invoked command in '/home/ubuntu/Old_LV/aarush_ros/src/control_package' returned '0': PYTHONPATH=/home/ubuntu/Old_LV/aarush_ros/build/control_package/prefix_override:/home/ubuntu/Old_LV/aarush_ros/install/control_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control_package build --build-base /home/ubuntu/Old_LV/aarush_ros/build/control_package/build install --record /home/ubuntu/Old_LV/aarush_ros/build/control_package/install.log --single-version-externally-managed

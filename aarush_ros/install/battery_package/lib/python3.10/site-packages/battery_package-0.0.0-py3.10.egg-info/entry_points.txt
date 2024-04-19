@@ -1,0 +1,3 @@
+[console_scripts]
+battery_node = battery_package.battery_node:main
+

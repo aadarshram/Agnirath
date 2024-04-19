@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/ubuntu/Old_LV/aarush_ros/install/main_package/lib/python3.10/site-packages/main_package/main_node.py", line 598
+    final_data[bms_index+57:bms_index+59]    parsed_data[mc_index+0: mc_index+9] = can_sub_data[8:17]
+                                             ^^^^^^^^^^^
+SyntaxError: invalid syntax
+

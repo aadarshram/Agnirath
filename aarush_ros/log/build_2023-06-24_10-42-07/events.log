@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.001915] (battery_package) JobQueued: {'identifier': 'battery_package', 'dependencies': OrderedDict()}
+[0.002522] (can_package) JobQueued: {'identifier': 'can_package', 'dependencies': OrderedDict()}
+[0.004951] (control_package) JobQueued: {'identifier': 'control_package', 'dependencies': OrderedDict()}
+[0.005127] (display_package) JobQueued: {'identifier': 'display_package', 'dependencies': OrderedDict()}
+[0.005378] (gps_package) JobQueued: {'identifier': 'gps_package', 'dependencies': OrderedDict()}
+[0.005534] (imu_package) JobQueued: {'identifier': 'imu_package', 'dependencies': OrderedDict()}
+[0.005637] (logging_package) JobQueued: {'identifier': 'logging_package', 'dependencies': OrderedDict()}
+[0.005744] (main_package) JobQueued: {'identifier': 'main_package', 'dependencies': OrderedDict()}
+[0.005819] (mc_package) JobQueued: {'identifier': 'mc_package', 'dependencies': OrderedDict()}
+[0.005887] (mppt_package) JobQueued: {'identifier': 'mppt_package', 'dependencies': OrderedDict()}
+[0.005976] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.007373] (rf_package) JobQueued: {'identifier': 'rf_package', 'dependencies': OrderedDict()}
+[0.007528] (test_package) JobQueued: {'identifier': 'test_package', 'dependencies': OrderedDict()}
+[0.007761] (battery_package) JobStarted: {'identifier': 'battery_package'}
+[0.047911] (can_package) JobStarted: {'identifier': 'can_package'}
+[0.098862] (-) TimerEvent: {}
+[0.199542] (-) TimerEvent: {}
+[0.300217] (-) TimerEvent: {}
+[0.400965] (-) TimerEvent: {}
+[0.501961] (-) TimerEvent: {}
+[0.602915] (-) TimerEvent: {}
+[0.703877] (-) TimerEvent: {}
+[0.804885] (-) TimerEvent: {}
+[0.905931] (-) TimerEvent: {}
+[1.006982] (-) TimerEvent: {}
+[1.108154] (-) TimerEvent: {}
+[1.209251] (-) TimerEvent: {}
+[1.310335] (-) TimerEvent: {}
+[1.411347] (-) TimerEvent: {}
+[1.512351] (-) TimerEvent: {}
+[1.613363] (-) TimerEvent: {}
+[1.714321] (-) TimerEvent: {}
+[1.815329] (-) TimerEvent: {}
+[1.916425] (-) TimerEvent: {}
+[2.017668] (-) TimerEvent: {}
+[2.118627] (-) TimerEvent: {}
+[2.219722] (-) TimerEvent: {}
+[2.293676] (can_package) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 67, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 600, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 1860, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.10/selectors.py", line 469, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 105, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 81, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 171, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 128, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'setup.py\', \'--help-commands\'] to pass: Traceback (most recent call last):\n  File "/home/ubuntu/Agnirath_LVS_Strategy/aarush_ros/src/can_package/setup.py", line 1, in <module>\n    from setuptools import find_packages, setup\n  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>\n    import setuptools.version\n  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>\n    import pkg_resources\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 76, in <module>\n    __import__(\'pkg_resources.extern.packaging.version\')\n  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 9, in <module>\n    from typing import Callable, Iterator, List, Optional, SupportsInt, Tuple, Union\n  File "<frozen importlib._bootstrap>", line 1024, in _find_and_load\n  File "<frozen importlib._bootstrap>", line 171, in __enter__\n  File "<frozen importlib._bootstrap>", line 110, in acquire\nKeyboardInterrupt\n\n'}
+[2.296597] (can_package) JobEnded: {'identifier': 'can_package', 'rc': 'SIGINT'}
+[2.298025] (battery_package) JobEnded: {'identifier': 'battery_package', 'rc': 'SIGINT'}
+[2.306862] (control_package) JobSkipped: {'identifier': 'control_package'}
+[2.307047] (display_package) JobSkipped: {'identifier': 'display_package'}
+[2.307124] (gps_package) JobSkipped: {'identifier': 'gps_package'}
+[2.307195] (imu_package) JobSkipped: {'identifier': 'imu_package'}
+[2.307264] (logging_package) JobSkipped: {'identifier': 'logging_package'}
+[2.307331] (main_package) JobSkipped: {'identifier': 'main_package'}
+[2.307400] (mc_package) JobSkipped: {'identifier': 'mc_package'}
+[2.307467] (mppt_package) JobSkipped: {'identifier': 'mppt_package'}
+[2.307533] (my_package) JobSkipped: {'identifier': 'my_package'}
+[2.307599] (rf_package) JobSkipped: {'identifier': 'rf_package'}
+[2.307664] (test_package) JobSkipped: {'identifier': 'test_package'}
+[2.307730] (-) EventReactorShutdown: {}

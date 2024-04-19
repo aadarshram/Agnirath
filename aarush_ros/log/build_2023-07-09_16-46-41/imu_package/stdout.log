@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/imu_package/imu_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/imu_package/imu_package.egg-info/dependency_links.txt
+writing entry points to ../../build/imu_package/imu_package.egg-info/entry_points.txt
+writing requirements to ../../build/imu_package/imu_package.egg-info/requires.txt
+writing top-level names to ../../build/imu_package/imu_package.egg-info/top_level.txt
+reading manifest file '../../build/imu_package/imu_package.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/imu_package/imu_package.egg-info/SOURCES.txt'
+running build
+running build_py
+copying imu_package/imu_node.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/imu_package/build/lib/imu_package
+copying imu_package/__init__.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/imu_package/build/lib/imu_package
+running install
+running install_lib
+copying /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/imu_package/build/lib/imu_package/imu_node.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/imu_package/lib/python3.10/site-packages/imu_package
+copying /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/imu_package/build/lib/imu_package/__init__.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/imu_package/lib/python3.10/site-packages/imu_package
+byte-compiling /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/imu_package/lib/python3.10/site-packages/imu_package/imu_node.py to imu_node.cpython-310.pyc
+byte-compiling /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/imu_package/lib/python3.10/site-packages/imu_package/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/imu_package -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/imu_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/imu_package/share/imu_package
+running install_egg_info
+removing '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/imu_package/lib/python3.10/site-packages/imu_package-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/imu_package/imu_package.egg-info to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/imu_package/lib/python3.10/site-packages/imu_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing imu_node script to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/imu_package/lib/imu_package
+writing list of installed files to '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/imu_package/install.log'

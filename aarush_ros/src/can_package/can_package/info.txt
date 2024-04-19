@@ -1,0 +1,18 @@
+Procedure for Enabling CAN (pins 19 and 20) on BeagleBone after boot up:
+1) sudo ip link set can0 up type can bitrate 500000
+2) sudo ifconfig can0 up
+
+Incase python program gives CAN error, reset CAN:
+1) sudo ifconfig can0 down
+2) sudo ip link set can0 up type can bitrate 500000
+
+Link for online bcd file editor
+https://www.csselectronics.com/pages/dbc-editor-can-bus-database
+
+Link for using cantools library (using .dbc files):
+https://cantools.readthedocs.io/en/latest/
+
+Link for using python-can library (for tansmit and receive):
+https://python-can.readthedocs.io/en/master/api.html
+
+Example transmit and receive code in this folder itself.

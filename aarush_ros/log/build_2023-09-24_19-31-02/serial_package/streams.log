@@ -1,0 +1,40 @@
+[4.106s] Invoking command in '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/serial_package': PYTHONPATH=/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package/prefix_override:/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/serial_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_package build --build-base /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package/build install --record /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package/install.log --single-version-externally-managed
+[4.528s] running egg_info
+[4.529s] creating ../../build/serial_package/serial_package.egg-info
+[4.529s] writing ../../build/serial_package/serial_package.egg-info/PKG-INFO
+[4.530s] writing dependency_links to ../../build/serial_package/serial_package.egg-info/dependency_links.txt
+[4.530s] writing entry points to ../../build/serial_package/serial_package.egg-info/entry_points.txt
+[4.530s] writing requirements to ../../build/serial_package/serial_package.egg-info/requires.txt
+[4.530s] writing top-level names to ../../build/serial_package/serial_package.egg-info/top_level.txt
+[4.534s] writing manifest file '../../build/serial_package/serial_package.egg-info/SOURCES.txt'
+[4.536s] reading manifest file '../../build/serial_package/serial_package.egg-info/SOURCES.txt'
+[4.536s] adding license file 'LICENSE'
+[4.552s] writing manifest file '../../build/serial_package/serial_package.egg-info/SOURCES.txt'
+[4.552s] running build
+[4.553s] running build_py
+[4.553s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package/build
+[4.553s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package/build/lib
+[4.553s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package/build/lib/serial_package
+[4.553s] copying serial_package/serial_node.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package/build/lib/serial_package
+[4.558s] copying serial_package/__init__.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package/build/lib/serial_package
+[4.558s] running install
+[4.558s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.558s]   warnings.warn(
+[4.558s] running install_lib
+[4.559s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/serial_package/lib/python3.10/site-packages/serial_package
+[4.559s] copying /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package/build/lib/serial_package/serial_node.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/serial_package/lib/python3.10/site-packages/serial_package
+[4.559s] copying /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package/build/lib/serial_package/__init__.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/serial_package/lib/python3.10/site-packages/serial_package
+[4.561s] byte-compiling /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/serial_package/lib/python3.10/site-packages/serial_package/serial_node.py to serial_node.cpython-310.pyc
+[4.561s] byte-compiling /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/serial_package/lib/python3.10/site-packages/serial_package/__init__.py to __init__.cpython-310.pyc
+[4.561s] running install_data
+[4.561s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/serial_package/share/ament_index
+[4.562s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/serial_package/share/ament_index/resource_index
+[4.562s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/serial_package/share/ament_index/resource_index/packages
+[4.562s] copying resource/serial_package -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/serial_package/share/ament_index/resource_index/packages
+[4.562s] copying package.xml -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/serial_package/share/serial_package
+[4.562s] running install_egg_info
+[4.562s] Copying ../../build/serial_package/serial_package.egg-info to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/serial_package/lib/python3.10/site-packages/serial_package-0.0.0-py3.10.egg-info
+[4.562s] running install_scripts
+[4.591s] Installing serial_node script to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/serial_package/lib/serial_package
+[4.591s] writing list of installed files to '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package/install.log'
+[4.849s] Invoked command in '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/serial_package' returned '0': PYTHONPATH=/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package/prefix_override:/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/serial_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_package build --build-base /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package/build install --record /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package/install.log --single-version-externally-managed

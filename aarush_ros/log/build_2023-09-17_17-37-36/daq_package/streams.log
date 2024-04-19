@@ -1,0 +1,35 @@
+[3.746s] Invoking command in '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/daq_package': PYTHONPATH=/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/prefix_override:/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/daq_package build --build-base /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/build install --record /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/install.log --single-version-externally-managed
+[4.113s] running egg_info
+[4.114s] writing ../../build/daq_package/daq_package.egg-info/PKG-INFO
+[4.114s] writing dependency_links to ../../build/daq_package/daq_package.egg-info/dependency_links.txt
+[4.114s] writing entry points to ../../build/daq_package/daq_package.egg-info/entry_points.txt
+[4.114s] writing requirements to ../../build/daq_package/daq_package.egg-info/requires.txt
+[4.114s] writing top-level names to ../../build/daq_package/daq_package.egg-info/top_level.txt
+[4.117s] reading manifest file '../../build/daq_package/daq_package.egg-info/SOURCES.txt'
+[4.118s] adding license file 'LICENSE'
+[4.118s] writing manifest file '../../build/daq_package/daq_package.egg-info/SOURCES.txt'
+[4.119s] running build
+[4.119s] running build_py
+[4.119s] copying daq_package/util_graph.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/build/lib/daq_package
+[4.119s] copying daq_package/__init__.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/build/lib/daq_package
+[4.119s] copying daq_package/daq_node.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/build/lib/daq_package
+[4.119s] running install
+[4.119s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.119s]   warnings.warn(
+[4.119s] running install_lib
+[4.120s] copying /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/build/lib/daq_package/util_graph.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/lib/python3.10/site-packages/daq_package
+[4.120s] copying /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/build/lib/daq_package/__init__.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/lib/python3.10/site-packages/daq_package
+[4.121s] copying /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/build/lib/daq_package/daq_node.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/lib/python3.10/site-packages/daq_package
+[4.121s] byte-compiling /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/lib/python3.10/site-packages/daq_package/util_graph.py to util_graph.cpython-310.pyc
+[4.122s] byte-compiling /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/lib/python3.10/site-packages/daq_package/__init__.py to __init__.cpython-310.pyc
+[4.122s] byte-compiling /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/lib/python3.10/site-packages/daq_package/daq_node.py to daq_node.cpython-310.pyc
+[4.134s] running install_data
+[4.136s] copying resource/daq_package -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/share/ament_index/resource_index/packages
+[4.136s] copying package.xml -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/share/daq_package
+[4.136s] running install_egg_info
+[4.138s] removing '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/lib/python3.10/site-packages/daq_package-0.0.0-py3.10.egg-info' (and everything under it)
+[4.138s] Copying ../../build/daq_package/daq_package.egg-info to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/lib/python3.10/site-packages/daq_package-0.0.0-py3.10.egg-info
+[4.139s] running install_scripts
+[4.160s] Installing daq_node script to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/lib/daq_package
+[4.160s] writing list of installed files to '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/install.log'
+[4.227s] Invoked command in '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/daq_package' returned '0': PYTHONPATH=/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/prefix_override:/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/daq_package build --build-base /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/build install --record /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/install.log --single-version-externally-managed

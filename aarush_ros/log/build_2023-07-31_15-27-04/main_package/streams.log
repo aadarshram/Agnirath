@@ -1,0 +1,32 @@
+[2.390s] Invoking command in '/home/ubuntu/Old_LV/aarush_ros/src/main_package': PYTHONPATH=/home/ubuntu/Old_LV/aarush_ros/build/main_package/prefix_override:/home/ubuntu/Old_LV/aarush_ros/install/main_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/main_package build --build-base /home/ubuntu/Old_LV/aarush_ros/build/main_package/build install --record /home/ubuntu/Old_LV/aarush_ros/build/main_package/install.log --single-version-externally-managed
+[3.347s] running egg_info
+[3.356s] writing ../../build/main_package/main_package.egg-info/PKG-INFO
+[3.358s] writing dependency_links to ../../build/main_package/main_package.egg-info/dependency_links.txt
+[3.361s] writing entry points to ../../build/main_package/main_package.egg-info/entry_points.txt
+[3.370s] writing requirements to ../../build/main_package/main_package.egg-info/requires.txt
+[3.370s] writing top-level names to ../../build/main_package/main_package.egg-info/top_level.txt
+[3.377s] reading manifest file '../../build/main_package/main_package.egg-info/SOURCES.txt'
+[3.378s] adding license file 'LICENSE'
+[3.381s] writing manifest file '../../build/main_package/main_package.egg-info/SOURCES.txt'
+[3.382s] running build
+[3.382s] running build_py
+[3.383s] copying main_package/main_node.py -> /home/ubuntu/Old_LV/aarush_ros/build/main_package/build/lib/main_package
+[3.385s] running install
+[3.386s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.387s]   warnings.warn(
+[3.387s] running install_lib
+[3.393s] copying /home/ubuntu/Old_LV/aarush_ros/build/main_package/build/lib/main_package/main_node.py -> /home/ubuntu/Old_LV/aarush_ros/install/main_package/lib/python3.10/site-packages/main_package
+[3.393s] byte-compiling /home/ubuntu/Old_LV/aarush_ros/install/main_package/lib/python3.10/site-packages/main_package/main_node.py to main_node.cpython-310.pyc
+[3.402s]   File "/home/ubuntu/Old_LV/aarush_ros/install/main_package/lib/python3.10/site-packages/main_package/main_node.py", line 598
+[3.402s]     final_data[bms_index+57:bms_index+59]    parsed_data[mc_index+0: mc_index+9] = can_sub_data[8:17]
+[3.402s]                                              ^^^^^^^^^^^
+[3.403s] SyntaxError: invalid syntax
+[3.403s] 
+[3.403s] running install_data
+[3.405s] running install_egg_info
+[3.412s] removing '/home/ubuntu/Old_LV/aarush_ros/install/main_package/lib/python3.10/site-packages/main_package-0.0.0-py3.10.egg-info' (and everything under it)
+[3.413s] Copying ../../build/main_package/main_package.egg-info to /home/ubuntu/Old_LV/aarush_ros/install/main_package/lib/python3.10/site-packages/main_package-0.0.0-py3.10.egg-info
+[3.417s] running install_scripts
+[3.523s] Installing main_node script to /home/ubuntu/Old_LV/aarush_ros/install/main_package/lib/main_package
+[3.525s] writing list of installed files to '/home/ubuntu/Old_LV/aarush_ros/build/main_package/install.log'
+[3.652s] Invoked command in '/home/ubuntu/Old_LV/aarush_ros/src/main_package' returned '0': PYTHONPATH=/home/ubuntu/Old_LV/aarush_ros/build/main_package/prefix_override:/home/ubuntu/Old_LV/aarush_ros/install/main_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/main_package build --build-base /home/ubuntu/Old_LV/aarush_ros/build/main_package/build install --record /home/ubuntu/Old_LV/aarush_ros/build/main_package/install.log --single-version-externally-managed

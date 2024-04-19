@@ -1,0 +1,24 @@
+[2.761s] Invoking command in '/home/ubuntu/Old_LV/aarush_ros/src/mc_package': PYTHONPATH=/home/ubuntu/Old_LV/aarush_ros/build/mc_package/prefix_override:/home/ubuntu/Old_LV/aarush_ros/install/mc_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mc_package build --build-base /home/ubuntu/Old_LV/aarush_ros/build/mc_package/build install --record /home/ubuntu/Old_LV/aarush_ros/build/mc_package/install.log --single-version-externally-managed
+[3.847s] running egg_info
+[3.854s] writing ../../build/mc_package/mc_package.egg-info/PKG-INFO
+[3.856s] writing dependency_links to ../../build/mc_package/mc_package.egg-info/dependency_links.txt
+[3.859s] writing entry points to ../../build/mc_package/mc_package.egg-info/entry_points.txt
+[3.861s] writing requirements to ../../build/mc_package/mc_package.egg-info/requires.txt
+[3.863s] writing top-level names to ../../build/mc_package/mc_package.egg-info/top_level.txt
+[3.875s] reading manifest file '../../build/mc_package/mc_package.egg-info/SOURCES.txt'
+[3.877s] adding license file 'LICENSE'
+[3.882s] writing manifest file '../../build/mc_package/mc_package.egg-info/SOURCES.txt'
+[3.883s] running build
+[3.884s] running build_py
+[3.887s] running install
+[3.889s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.889s]   warnings.warn(
+[3.891s] running install_lib
+[3.899s] running install_data
+[3.900s] running install_egg_info
+[3.907s] removing '/home/ubuntu/Old_LV/aarush_ros/install/mc_package/lib/python3.10/site-packages/mc_package-0.0.0-py3.10.egg-info' (and everything under it)
+[3.910s] Copying ../../build/mc_package/mc_package.egg-info to /home/ubuntu/Old_LV/aarush_ros/install/mc_package/lib/python3.10/site-packages/mc_package-0.0.0-py3.10.egg-info
+[3.915s] running install_scripts
+[4.001s] Installing mc_node script to /home/ubuntu/Old_LV/aarush_ros/install/mc_package/lib/mc_package
+[4.003s] writing list of installed files to '/home/ubuntu/Old_LV/aarush_ros/build/mc_package/install.log'
+[4.149s] Invoked command in '/home/ubuntu/Old_LV/aarush_ros/src/mc_package' returned '0': PYTHONPATH=/home/ubuntu/Old_LV/aarush_ros/build/mc_package/prefix_override:/home/ubuntu/Old_LV/aarush_ros/install/mc_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mc_package build --build-base /home/ubuntu/Old_LV/aarush_ros/build/mc_package/build install --record /home/ubuntu/Old_LV/aarush_ros/build/mc_package/install.log --single-version-externally-managed

@@ -1,0 +1,40 @@
+[4.112s] Invoking command in '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/peripheral_package': PYTHONPATH=/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/peripheral_package/prefix_override:/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/peripheral_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/peripheral_package build --build-base /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/peripheral_package/build install --record /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/peripheral_package/install.log --single-version-externally-managed
+[4.529s] running egg_info
+[4.530s] creating ../../build/peripheral_package/peripheral_package.egg-info
+[4.530s] writing ../../build/peripheral_package/peripheral_package.egg-info/PKG-INFO
+[4.531s] writing dependency_links to ../../build/peripheral_package/peripheral_package.egg-info/dependency_links.txt
+[4.531s] writing entry points to ../../build/peripheral_package/peripheral_package.egg-info/entry_points.txt
+[4.531s] writing requirements to ../../build/peripheral_package/peripheral_package.egg-info/requires.txt
+[4.531s] writing top-level names to ../../build/peripheral_package/peripheral_package.egg-info/top_level.txt
+[4.534s] writing manifest file '../../build/peripheral_package/peripheral_package.egg-info/SOURCES.txt'
+[4.538s] reading manifest file '../../build/peripheral_package/peripheral_package.egg-info/SOURCES.txt'
+[4.538s] adding license file 'LICENSE'
+[4.540s] writing manifest file '../../build/peripheral_package/peripheral_package.egg-info/SOURCES.txt'
+[4.540s] running build
+[4.540s] running build_py
+[4.540s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/peripheral_package/build
+[4.541s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/peripheral_package/build/lib
+[4.541s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/peripheral_package/build/lib/peripheral_package
+[4.541s] copying peripheral_package/__init__.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/peripheral_package/build/lib/peripheral_package
+[4.541s] copying peripheral_package/peripheral_node.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/peripheral_package/build/lib/peripheral_package
+[4.542s] running install
+[4.542s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.542s]   warnings.warn(
+[4.542s] running install_lib
+[4.543s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/peripheral_package/lib/python3.10/site-packages/peripheral_package
+[4.543s] copying /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/peripheral_package/build/lib/peripheral_package/__init__.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/peripheral_package/lib/python3.10/site-packages/peripheral_package
+[4.543s] copying /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/peripheral_package/build/lib/peripheral_package/peripheral_node.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/peripheral_package/lib/python3.10/site-packages/peripheral_package
+[4.544s] byte-compiling /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/peripheral_package/lib/python3.10/site-packages/peripheral_package/__init__.py to __init__.cpython-310.pyc
+[4.544s] byte-compiling /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/peripheral_package/lib/python3.10/site-packages/peripheral_package/peripheral_node.py to peripheral_node.cpython-310.pyc
+[4.545s] running install_data
+[4.546s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/peripheral_package/share/ament_index
+[4.546s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/peripheral_package/share/ament_index/resource_index
+[4.547s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/peripheral_package/share/ament_index/resource_index/packages
+[4.547s] copying resource/peripheral_package -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/peripheral_package/share/ament_index/resource_index/packages
+[4.547s] copying package.xml -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/peripheral_package/share/peripheral_package
+[4.547s] running install_egg_info
+[4.566s] Copying ../../build/peripheral_package/peripheral_package.egg-info to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/peripheral_package/lib/python3.10/site-packages/peripheral_package-0.0.0-py3.10.egg-info
+[4.566s] running install_scripts
+[4.586s] Installing peripheral_node script to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/peripheral_package/lib/peripheral_package
+[4.587s] writing list of installed files to '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/peripheral_package/install.log'
+[4.784s] Invoked command in '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/peripheral_package' returned '0': PYTHONPATH=/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/peripheral_package/prefix_override:/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/peripheral_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/peripheral_package build --build-base /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/peripheral_package/build install --record /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/peripheral_package/install.log --single-version-externally-managed

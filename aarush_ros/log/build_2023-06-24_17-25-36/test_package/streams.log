@@ -1,0 +1,27 @@
+[0.619s] Invoking command in '/home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/src/test_package': PYTHONPATH=/home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/build/test_package/prefix_override:/home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_package build --build-base /home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/build/test_package/build install --record /home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/build/test_package/install.log --single-version-externally-managed
+[0.840s] running egg_info
+[0.841s] writing ../../build/test_package/test_package.egg-info/PKG-INFO
+[0.841s] writing dependency_links to ../../build/test_package/test_package.egg-info/dependency_links.txt
+[0.841s] writing entry points to ../../build/test_package/test_package.egg-info/entry_points.txt
+[0.841s] writing requirements to ../../build/test_package/test_package.egg-info/requires.txt
+[0.841s] writing top-level names to ../../build/test_package/test_package.egg-info/top_level.txt
+[0.843s] reading manifest file '../../build/test_package/test_package.egg-info/SOURCES.txt'
+[0.843s] adding license file 'LICENSE'
+[0.844s] writing manifest file '../../build/test_package/test_package.egg-info/SOURCES.txt'
+[0.844s] running build
+[0.844s] running build_py
+[0.844s] copying test_package/pub_sub_node.py -> /home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/build/test_package/build/lib/test_package
+[0.844s] running install
+[0.844s] running install_lib
+[0.845s] copying /home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/build/test_package/build/lib/test_package/pub_sub_node.py -> /home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/python3.10/site-packages/test_package
+[0.846s] byte-compiling /home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/python3.10/site-packages/test_package/pub_sub_node.py to pub_sub_node.cpython-310.pyc
+[0.846s] running install_data
+[0.847s] running install_egg_info
+[0.848s] removing '/home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/python3.10/site-packages/test_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.848s] Copying ../../build/test_package/test_package.egg-info to /home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/python3.10/site-packages/test_package-0.0.0-py3.10.egg-info
+[0.849s] running install_scripts
+[0.865s] Installing pub_node script to /home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/test_package
+[0.865s] Installing pub_sub_node script to /home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/test_package
+[0.865s] Installing sub_node script to /home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/test_package
+[0.865s] writing list of installed files to '/home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/build/test_package/install.log'
+[0.898s] Invoked command in '/home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/src/test_package' returned '0': PYTHONPATH=/home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/build/test_package/prefix_override:/home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_package build --build-base /home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/build/test_package/build install --record /home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/build/test_package/install.log --single-version-externally-managed

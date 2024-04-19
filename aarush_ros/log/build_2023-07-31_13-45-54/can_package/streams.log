@@ -1,0 +1,29 @@
+[2.225s] Invoking command in '/home/ubuntu/Old_LV/aarush_ros/src/can_package': PYTHONPATH=/home/ubuntu/Old_LV/aarush_ros/build/can_package/prefix_override:/home/ubuntu/Old_LV/aarush_ros/install/can_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/can_package build --build-base /home/ubuntu/Old_LV/aarush_ros/build/can_package/build install --record /home/ubuntu/Old_LV/aarush_ros/build/can_package/install.log --single-version-externally-managed
+[3.086s] running egg_info
+[3.089s] writing ../../build/can_package/can_package.egg-info/PKG-INFO
+[3.090s] writing dependency_links to ../../build/can_package/can_package.egg-info/dependency_links.txt
+[3.091s] writing entry points to ../../build/can_package/can_package.egg-info/entry_points.txt
+[3.091s] writing requirements to ../../build/can_package/can_package.egg-info/requires.txt
+[3.092s] writing top-level names to ../../build/can_package/can_package.egg-info/top_level.txt
+[3.101s] reading manifest file '../../build/can_package/can_package.egg-info/SOURCES.txt'
+[3.102s] adding license file 'LICENSE'
+[3.105s] writing manifest file '../../build/can_package/can_package.egg-info/SOURCES.txt'
+[3.105s] running build
+[3.105s] running build_py
+[3.109s] running install
+[3.110s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.110s]   warnings.warn(
+[3.111s] running install_lib
+[3.117s] byte-compiling /home/ubuntu/Old_LV/aarush_ros/install/can_package/lib/python3.10/site-packages/can_package/py_tools_decode_test_dup.py to py_tools_decode_test_dup.cpython-310.pyc
+[3.120s] running install_data
+[3.122s] running install_egg_info
+[3.128s] removing '/home/ubuntu/Old_LV/aarush_ros/install/can_package/lib/python3.10/site-packages/can_package-0.0.0-py3.10.egg-info' (and everything under it)
+[3.129s] Copying ../../build/can_package/can_package.egg-info to /home/ubuntu/Old_LV/aarush_ros/install/can_package/lib/python3.10/site-packages/can_package-0.0.0-py3.10.egg-info
+[3.133s] running install_scripts
+[3.208s] Installing can_node_sim script to /home/ubuntu/Old_LV/aarush_ros/install/can_package/lib/can_package
+[3.208s] Installing can_rx_node script to /home/ubuntu/Old_LV/aarush_ros/install/can_package/lib/can_package
+[3.209s] Installing can_rx_node_dup script to /home/ubuntu/Old_LV/aarush_ros/install/can_package/lib/can_package
+[3.210s] Installing can_rx_node_v3 script to /home/ubuntu/Old_LV/aarush_ros/install/can_package/lib/can_package
+[3.210s] Installing can_tx_node script to /home/ubuntu/Old_LV/aarush_ros/install/can_package/lib/can_package
+[3.213s] writing list of installed files to '/home/ubuntu/Old_LV/aarush_ros/build/can_package/install.log'
+[3.340s] Invoked command in '/home/ubuntu/Old_LV/aarush_ros/src/can_package' returned '0': PYTHONPATH=/home/ubuntu/Old_LV/aarush_ros/build/can_package/prefix_override:/home/ubuntu/Old_LV/aarush_ros/install/can_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/can_package build --build-base /home/ubuntu/Old_LV/aarush_ros/build/can_package/build install --record /home/ubuntu/Old_LV/aarush_ros/build/can_package/install.log --single-version-externally-managed

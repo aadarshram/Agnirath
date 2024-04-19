@@ -1,0 +1,324 @@
+VERSION "1.0"
+
+
+NS_ : 
+		NS_DESC_
+		CM_
+		BA_DEF_
+		BA_
+		VAL_
+		CAT_DEF_
+		CAT_
+		FILTER
+		BA_DEF_DEF_
+		EV_DATA_
+		ENVVAR_DATA_
+		SGTYPE_
+		SGTYPE_VAL_
+		BA_DEF_SGTYPE_
+		BA_SGTYPE_
+		SIG_TYPE_REF_
+		VAL_TABLE_
+		SIG_GROUP_
+		SIG_VALTYPE_
+		SIGTYPE_VALTYPE_
+		BO_TX_BU_
+		BA_DEF_REL_
+		BA_REL_
+		BA_DEF_DEF_REL_
+		BU_SG_REL_
+		BU_EV_REL_
+		BU_BO_REL_
+		SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 1696 Input_Measurements: 8 Vector__XXX
+	SG_ Input_Voltage_A : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+	SG_ Input_Current_A : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1697 Output_Measurements: 8 Vector__XXX
+	SG_ Output_Voltage_A : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+	SG_ Output_Current_A : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1698 Tmperature: 8 Vector__XXX
+	SG_ MOSFET_Temp_A : 0|32@1+ (1,0) [0|0] "Celcius" Vector__XXX
+	SG_ Controller_Temp_A : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1699 Auxiliary_PS: 8 Vector__XXX
+	SG_ Supply_12V_A : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+	SG_ Supply_3V_A : 32|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+
+BO_ 1700 Limits: 8 Vector__XXX
+	SG_ Max_Out_Volt_A : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+	SG_ Max_In_Current_A : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1701 Status: 8 Vector__XXX
+	SG_ RX_Error_Count_A : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ TX_Error_Count_A : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ TX_Overflow_Count_A : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Low_Array_Power_A : 24|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Mosfet_Overheat_A : 25|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Battery_Low_A : 26|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Battery_Full_A : 27|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Undervoltage_12V_A : 28|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ HW_Overcurrent_A : 30|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ HW_Overvoltage_A : 31|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Input_Currnet_Min_A : 32|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Input_Current_Max_A : 33|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Output_Voltage_Max_A : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ MOSFET_Temperature_A : 35|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Duty_Cycle_Min_A : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Duty_Cycle_Max_A : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Local_MPPT_A : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Global_MPPT_A : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Mode_A : 40|8@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Test_Counter_A : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1702 Power_Connector: 8 Vector__XXX
+	SG_ Battery_Side_Output_Voltage_A : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+	SG_ Power_Connector_Temperature_A : 32|32@1+ (1,0) [0|0] "Celcius" Vector__XXX
+
+BO_ 1704 Mode_Set: 1 Vector__XXX
+	SG_ Set_Mode_A : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1706 Maximum_Output_Volt: 4 Vector__XXX
+	SG_ Max_Output_Voltage_Set_A : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+
+BO_ 1707 Maximum_Input_Current: 4 Vector__XXX
+	SG_ Max_Input_Current_Set_A : 0|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1712 Input_Measurements: 8 Vector__XXX
+	SG_ Input_Voltage_B : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+	SG_ Input_Current_B : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1713 Output_Measurements: 8 Vector__XXX
+	SG_ Output_Voltage_B : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+	SG_ Output_Current_B : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1714 Tmperature: 8 Vector__XXX
+	SG_ MOSFET_Temp_B : 0|32@1+ (1,0) [0|0] "Celcius" Vector__XXX
+	SG_ Controller_Temp_B : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1715 Auxiliary_PS: 8 Vector__XXX
+	SG_ Supply_12V_B : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+	SG_ Supply_3V_B : 32|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+
+BO_ 1716 Limits: 8 Vector__XXX
+	SG_ Max_Out_Volt_B : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+	SG_ Max_In_Current_B : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1717 Status: 8 Vector__XXX
+	SG_ RX_Error_Count_B : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ TX_Error_Count_B : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ TX_Overflow_Count_B : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Low_Array_Power_B : 24|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Mosfet_Overheat_B : 25|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Battery_Low_B : 26|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Undervoltage_12V_B : 28|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Battery_Full_B : 27|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ HW_Overcurrent_B : 30|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ HW_Overvoltage_B : 31|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Input_Currnet_Min_B : 32|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Input_Current_Max_B : 33|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Output_Voltage_Max_B : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ MOSFET_Temperature_B : 35|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Duty_Cycle_Min_B : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Duty_Cycle_Max_B : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Local_MPPT_B : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Global_MPPT_B : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Mode_B : 40|8@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Test_Counter_B : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1718 Power_Connector: 8 Vector__XXX
+	SG_ Battery_Side_Output_Voltage_B : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+	SG_ Power_Connector_Temperature_B : 32|32@1+ (1,0) [0|0] "Celcius" Vector__XXX
+
+BO_ 1720 Mode_Set: 1 Vector__XXX
+	SG_ Set_Mode_B : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1722 Maximum_Output_Volt: 4 Vector__XXX
+	SG_ Max_Output_Voltage_Set_B : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+
+BO_ 1723 Maximum_Input_Current: 4 Vector__XXX
+	SG_ Max_Input_Current_Set_B : 0|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1728 Input_Measurements: 8 Vector__XXX
+	SG_ Input_Voltage_C : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+	SG_ Input_Current_C : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1729 Output_Measurements: 8 Vector__XXX
+	SG_ Output_Voltage_C : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+	SG_ Output_Current_C : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1730 Tmperature: 8 Vector__XXX
+	SG_ MOSFET_Temp_C : 0|32@1+ (1,0) [0|0] "Celcius" Vector__XXX
+	SG_ Controller_Temp_C : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1731 Auxiliary_PS: 8 Vector__XXX
+	SG_ Supply_12V_C : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+	SG_ Supply_3V_C : 32|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+
+BO_ 1732 Limits: 8 Vector__XXX
+	SG_ Max_Out_Volt_C : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+	SG_ Max_In_Current_C : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1733 Status: 8 Vector__XXX
+	SG_ RX_Error_Count_C : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ TX_Error_Count_C : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ TX_Overflow_Count_C : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Low_Array_Power_C : 24|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Mosfet_Overheat_C : 25|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Battery_Low_C : 26|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Undervoltage_12V_C : 28|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Battery_Full_C : 27|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ HW_Overcurrent_C : 30|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ HW_Overvoltage_C : 31|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Input_Currnet_Min_C : 32|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Input_Current_Max_C : 33|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Output_Voltage_Max_C : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ MOSFET_Temperature_C : 35|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Duty_Cycle_Min_C : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Duty_Cycle_Max_C : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Local_MPPT_C : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Global_MPPT_C : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Mode_C : 40|8@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Test_Counter_C : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1734 Power_Connector: 8 Vector__XXX
+	SG_ Battery_Side_Output_Voltage_C : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+	SG_ Power_Connector_Temperature_C : 32|32@1+ (1,0) [0|0] "Celcius" Vector__XXX
+
+BO_ 1736 Mode_Set: 1 Vector__XXX
+	SG_ Set_Mode_C : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1738 Maximum_Output_Volt: 4 Vector__XXX
+	SG_ Max_Output_Voltage_Set_C : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+
+BO_ 1739 Maximum_Input_Current: 4 Vector__XXX
+	SG_ Max_Input_Current_Set_C : 0|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1744 Input_Measurements: 8 Vector__XXX
+	SG_ Input_Voltage_D : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+	SG_ Input_Current_D : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1745 Output_Measurements: 8 Vector__XXX
+	SG_ Output_Voltage_D : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+	SG_ Output_Current_D : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1746 Tmperature: 8 Vector__XXX
+	SG_ MOSFET_Temp_D : 0|32@1+ (1,0) [0|0] "Celcius" Vector__XXX
+	SG_ Controller_Temp_D : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1747 Auxiliary_PS: 8 Vector__XXX
+	SG_ Supply_12V_D : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+	SG_ Supply_3V_D : 32|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+
+BO_ 1748 Limits: 8 Vector__XXX
+	SG_ Max_Out_Volt_D : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+	SG_ Max_In_Current_D : 32|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BO_ 1749 Status: 8 Vector__XXX
+	SG_ RX_Error_Count_D : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ TX_Error_Count_D : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ TX_Overflow_Count_D : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Low_Array_Power_D : 24|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Mosfet_Overheat_D : 25|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Battery_Low_D : 26|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Undervoltage_12V_D : 28|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Battery_Full_D : 27|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ HW_Overcurrent_D : 30|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ HW_Overvoltage_D : 31|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Input_Currnet_Min_D : 32|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Input_Current_Max_D : 33|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Output_Voltage_Max_D : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ MOSFET_Temperature_D : 35|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Duty_Cycle_Min_D : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Duty_Cycle_Max_D : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Local_MPPT_D : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Global_MPPT_D : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Mode_D : 40|8@1+ (1,0) [0|0] "" Vector__XXX
+	SG_ Test_Counter_D : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1750 Power_Connector: 8 Vector__XXX
+	SG_ Battery_Side_Output_Voltage_D : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+	SG_ Power_Connector_Temperature_D : 32|32@1+ (1,0) [0|0] "Celcius" Vector__XXX
+
+BO_ 1752 Mode_Set: 1 Vector__XXX
+	SG_ Set_Mode_D : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1754 Maximum_Output_Volt: 4 Vector__XXX
+	SG_ Max_Output_Voltage_Set_D : 0|32@1+ (1,0) [0|0] "Volt" Vector__XXX
+
+BO_ 1755 Maximum_Input_Current: 4 Vector__XXX
+	SG_ Max_Input_Current_Set_D : 0|32@1+ (1,0) [0|0] "Ampere" Vector__XXX
+
+BA_DEF_ SG_  "SPN" INT 0 524287;
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","J1939PG";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "SPN" 0;
+BA_DEF_DEF_  "BusType" "";
+BA_ "BusType" "CAN";
+
+SIG_VALTYPE_ 1696 Input_Voltage_A : 1;
+SIG_VALTYPE_ 1696 Input_Current_A : 1;
+SIG_VALTYPE_ 1697 Output_Voltage_A : 1;
+SIG_VALTYPE_ 1697 Output_Current_A : 1;
+SIG_VALTYPE_ 1698 MOSFET_Temp_A : 1;
+SIG_VALTYPE_ 1698 Controller_Temp_A : 1;
+SIG_VALTYPE_ 1699 Supply_12V_A : 1;
+SIG_VALTYPE_ 1699 Supply_3V_A : 1;
+SIG_VALTYPE_ 1700 Max_Out_Volt_A : 1;
+SIG_VALTYPE_ 1700 Max_In_Current_A : 1;
+SIG_VALTYPE_ 1702 Battery_Side_Output_Voltage_A : 1;
+SIG_VALTYPE_ 1702 Power_Connector_Temperature_A : 1;
+SIG_VALTYPE_ 1706 Max_Output_Voltage_Set_A : 1;
+SIG_VALTYPE_ 1707 Max_Input_Current_Set_A : 1;
+
+SIG_VALTYPE_ 1712 Input_Voltage_B : 1;
+SIG_VALTYPE_ 1712 Input_Current_B : 1;
+SIG_VALTYPE_ 1713 Output_Voltage_B : 1;
+SIG_VALTYPE_ 1713 Output_Current_B : 1;
+SIG_VALTYPE_ 1714 MOSFET_Temp_B : 1;
+SIG_VALTYPE_ 1714 Controller_Temp_B : 1;
+SIG_VALTYPE_ 1715 Supply_12V_B : 1;
+SIG_VALTYPE_ 1715 Supply_3V_B : 1;
+SIG_VALTYPE_ 1716 Max_Out_Volt_B : 1;
+SIG_VALTYPE_ 1716 Max_In_Current_B : 1;
+SIG_VALTYPE_ 1718 Battery_Side_Output_Voltage_B : 1;
+SIG_VALTYPE_ 1718 Power_Connector_Temperature_B : 1;
+SIG_VALTYPE_ 1722 Max_Output_Voltage_Set_B : 1;
+SIG_VALTYPE_ 1723 Max_Input_Current_Set_B : 1;
+
+SIG_VALTYPE_ 1728 Input_Voltage_C : 1;
+SIG_VALTYPE_ 1728 Input_Current_C : 1;
+SIG_VALTYPE_ 1729 Output_Voltage_C : 1;
+SIG_VALTYPE_ 1729 Output_Current_C : 1;
+SIG_VALTYPE_ 1730 MOSFET_Temp_C : 1;
+SIG_VALTYPE_ 1730 Controller_Temp_C : 1;
+SIG_VALTYPE_ 1731 Supply_12V_C : 1;
+SIG_VALTYPE_ 1731 Supply_3V_C : 1;
+SIG_VALTYPE_ 1732 Max_Out_Volt_C : 1;
+SIG_VALTYPE_ 1732 Max_In_Current_C : 1;
+SIG_VALTYPE_ 1734 Battery_Side_Output_Voltage_C : 1;
+SIG_VALTYPE_ 1734 Power_Connector_Temperature_C : 1;
+SIG_VALTYPE_ 1738 Max_Output_Voltage_Set_C : 1;
+SIG_VALTYPE_ 1739 Max_Input_Current_Set_C : 1;
+
+SIG_VALTYPE_ 1744 Input_Voltage_D : 1;
+SIG_VALTYPE_ 1744 Input_Current_D : 1;
+SIG_VALTYPE_ 1745 Output_Voltage_D : 1;
+SIG_VALTYPE_ 1745 Output_Current_D : 1;
+SIG_VALTYPE_ 1746 MOSFET_Temp_D : 1;
+SIG_VALTYPE_ 1746 Controller_Temp_ : 1;
+SIG_VALTYPE_ 1747 Supply_12V_D : 1;
+SIG_VALTYPE_ 1747 Supply_3V_D : 1;
+SIG_VALTYPE_ 1748 Max_Out_Volt_D : 1;
+SIG_VALTYPE_ 1748 Max_In_Current_D : 1;
+SIG_VALTYPE_ 1750 Battery_Side_Output_Voltage_D : 1;
+SIG_VALTYPE_ 1750 Power_Connector_Temperature_D : 1;
+SIG_VALTYPE_ 1754 Max_Output_Voltage_Set_D : 1;
+SIG_VALTYPE_ 1755 Max_Input_Current_Set_D : 1;

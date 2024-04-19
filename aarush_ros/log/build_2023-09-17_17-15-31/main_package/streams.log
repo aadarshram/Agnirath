@@ -1,0 +1,27 @@
+[3.793s] Invoking command in '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/main_package': PYTHONPATH=/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/main_package/prefix_override:/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/main_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/main_package build --build-base /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/main_package/build install --record /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/main_package/install.log --single-version-externally-managed
+[4.060s] running egg_info
+[4.061s] writing ../../build/main_package/main_package.egg-info/PKG-INFO
+[4.064s] writing dependency_links to ../../build/main_package/main_package.egg-info/dependency_links.txt
+[4.064s] writing entry points to ../../build/main_package/main_package.egg-info/entry_points.txt
+[4.064s] writing requirements to ../../build/main_package/main_package.egg-info/requires.txt
+[4.065s] writing top-level names to ../../build/main_package/main_package.egg-info/top_level.txt
+[4.065s] reading manifest file '../../build/main_package/main_package.egg-info/SOURCES.txt'
+[4.066s] adding license file 'LICENSE'
+[4.066s] writing manifest file '../../build/main_package/main_package.egg-info/SOURCES.txt'
+[4.066s] running build
+[4.067s] running build_py
+[4.067s] copying main_package/main_node_1.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/main_package/build/lib/main_package
+[4.068s] running install
+[4.068s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.068s]   warnings.warn(
+[4.069s] running install_lib
+[4.069s] copying /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/main_package/build/lib/main_package/main_node_1.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/main_package/lib/python3.10/site-packages/main_package
+[4.069s] byte-compiling /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/main_package/lib/python3.10/site-packages/main_package/main_node_1.py to main_node_1.cpython-310.pyc
+[4.070s] running install_data
+[4.070s] running install_egg_info
+[4.070s] removing '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/main_package/lib/python3.10/site-packages/main_package-0.0.0-py3.10.egg-info' (and everything under it)
+[4.070s] Copying ../../build/main_package/main_package.egg-info to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/main_package/lib/python3.10/site-packages/main_package-0.0.0-py3.10.egg-info
+[4.070s] running install_scripts
+[4.093s] Installing main_node script to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/main_package/lib/main_package
+[4.094s] writing list of installed files to '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/main_package/install.log'
+[4.172s] Invoked command in '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/main_package' returned '0': PYTHONPATH=/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/main_package/prefix_override:/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/main_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/main_package build --build-base /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/main_package/build install --record /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/main_package/install.log --single-version-externally-managed

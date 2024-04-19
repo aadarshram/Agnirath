@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000455] (-) JobUnselected: {'identifier': 'battery_package'}
+[0.000775] (-) JobUnselected: {'identifier': 'can_package'}
+[0.000810] (-) JobUnselected: {'identifier': 'control_package'}
+[0.000832] (-) JobUnselected: {'identifier': 'daq_package'}
+[0.000852] (-) JobUnselected: {'identifier': 'display_package'}
+[0.000871] (-) JobUnselected: {'identifier': 'gps_package'}
+[0.000891] (-) JobUnselected: {'identifier': 'imu_package'}
+[0.000913] (-) JobUnselected: {'identifier': 'logging_package'}
+[0.000938] (-) JobUnselected: {'identifier': 'main_package'}
+[0.000956] (-) JobUnselected: {'identifier': 'mc_package'}
+[0.000984] (-) JobUnselected: {'identifier': 'mppt_package'}
+[0.001009] (-) JobUnselected: {'identifier': 'peripheral_package'}
+[0.001026] (-) JobUnselected: {'identifier': 'test_package'}
+[0.001051] (serial_package) JobQueued: {'identifier': 'serial_package', 'dependencies': OrderedDict()}
+[0.001083] (serial_package) JobStarted: {'identifier': 'serial_package'}
+[0.098702] (-) TimerEvent: {}
+[0.198976] (-) TimerEvent: {}
+[0.299293] (-) TimerEvent: {}
+[0.399580] (-) TimerEvent: {}
+[0.499871] (-) TimerEvent: {}
+[0.509282] (serial_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/serial_package', 'build', '--build-base', '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package/build', 'install', '--record', '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/serial_package', 'env': {'USER': 'jaay', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2125', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/jaay', 'OLDPWD': '/home/jaay/Agnirath/Agnirath_LVS_Strategy', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'LESS': '-R', 'DESKTOP_SESSION': 'qtile', 'TERM_PROGRAM_VERSION': '1.82.2', 'ZSH': '/home/jaay/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/iron/', 'MANDATORY_PATH': '/usr/share/gconf/qtile.mandatory.path', 'ROS_DISTRO': 'iron', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'jaay', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/7', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/qtile.default.path', 'ROS_VERSION': '2', 'USER_ZDOTDIR': '/home/jaay', 'XDG_SESSION_ID': '4', 'COPPELIASIM_ROOT_DIR': '/home/jaay/Repositories/CoppeliaSim', 'TERM': 'xterm-256color', 'PATH': '~/.config/rofi/scripts:/home/jaay/.local/bin:~/.config/rofi/scripts:/home/jaay/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jaay/.spicetify:/home/jaay/.spicetify', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': '', 'VSCODE_INJECTION': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': '', 'XAUTHORITY': '/home/jaay/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-4856f55270.sock', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXK0N4oC/agent.2044', 'ORIGINAL_XDG_CURRENT_DESKTOP': '', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'ROS_DOMAIN_ID': '0', 'SHELL': '/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'VSCODE_NONCE': '3a7c11e3-fe30-4195-b2bb-1ba71c827281', 'PWD': '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-qtile:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/qtile:/home/jaay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'ZDOTDIR': '/home/jaay', '_P9K_TTY': '/dev/pts/7', 'PYTHONPATH': '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package/prefix_override:/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/serial_package/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.600047] (-) TimerEvent: {}
+[0.700462] (-) TimerEvent: {}
+[0.737734] (serial_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.738306] (serial_package) StdoutLine: {'line': b'writing ../../build/serial_package/serial_package.egg-info/PKG-INFO\n'}
+[0.738494] (serial_package) StdoutLine: {'line': b'writing dependency_links to ../../build/serial_package/serial_package.egg-info/dependency_links.txt\n'}
+[0.738630] (serial_package) StdoutLine: {'line': b'writing entry points to ../../build/serial_package/serial_package.egg-info/entry_points.txt\n'}
+[0.738742] (serial_package) StdoutLine: {'line': b'writing requirements to ../../build/serial_package/serial_package.egg-info/requires.txt\n'}
+[0.738821] (serial_package) StdoutLine: {'line': b'writing top-level names to ../../build/serial_package/serial_package.egg-info/top_level.txt\n'}
+[0.740985] (serial_package) StdoutLine: {'line': b"reading manifest file '../../build/serial_package/serial_package.egg-info/SOURCES.txt'\n"}
+[0.741155] (serial_package) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.741649] (serial_package) StdoutLine: {'line': b"writing manifest file '../../build/serial_package/serial_package.egg-info/SOURCES.txt'\n"}
+[0.741799] (serial_package) StdoutLine: {'line': b'running build\n'}
+[0.741886] (serial_package) StdoutLine: {'line': b'running build_py\n'}
+[0.742005] (serial_package) StdoutLine: {'line': b'copying serial_package/serial_node.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package/build/lib/serial_package\n'}
+[0.742088] (serial_package) StdoutLine: {'line': b'running install\n'}
+[0.742201] (serial_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.742298] (serial_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.742389] (serial_package) StdoutLine: {'line': b'running install_lib\n'}
+[0.742753] (serial_package) StdoutLine: {'line': b'copying /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package/build/lib/serial_package/serial_node.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/serial_package/lib/python3.10/site-packages/serial_package\n'}
+[0.743149] (serial_package) StdoutLine: {'line': b'byte-compiling /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/serial_package/lib/python3.10/site-packages/serial_package/serial_node.py to serial_node.cpython-310.pyc\n'}
+[0.743788] (serial_package) StdoutLine: {'line': b'running install_data\n'}
+[0.744249] (serial_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.745479] (serial_package) StdoutLine: {'line': b"removing '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/serial_package/lib/python3.10/site-packages/serial_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.745647] (serial_package) StdoutLine: {'line': b'Copying ../../build/serial_package/serial_package.egg-info to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/serial_package/lib/python3.10/site-packages/serial_package-0.0.0-py3.10.egg-info\n'}
+[0.746227] (serial_package) StdoutLine: {'line': b'running install_scripts\n'}
+[0.761185] (serial_package) StdoutLine: {'line': b'Installing serial_node script to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/serial_package/lib/serial_package\n'}
+[0.761466] (serial_package) StdoutLine: {'line': b"writing list of installed files to '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/serial_package/install.log'\n"}
+[0.781647] (serial_package) CommandEnded: {'returncode': 0}
+[0.791982] (serial_package) JobEnded: {'identifier': 'serial_package', 'rc': 0}
+[0.792633] (-) EventReactorShutdown: {}

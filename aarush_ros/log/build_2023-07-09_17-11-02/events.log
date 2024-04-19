@@ -1,0 +1,48 @@
+[0.000000] (-) TimerEvent: {}
+[0.000290] (-) JobUnselected: {'identifier': 'can_package'}
+[0.000743] (-) JobUnselected: {'identifier': 'control_package'}
+[0.000766] (-) JobUnselected: {'identifier': 'display_package'}
+[0.000785] (-) JobUnselected: {'identifier': 'gps_package'}
+[0.000803] (-) JobUnselected: {'identifier': 'imu_package'}
+[0.000819] (-) JobUnselected: {'identifier': 'logging_package'}
+[0.000834] (-) JobUnselected: {'identifier': 'main_package'}
+[0.000849] (-) JobUnselected: {'identifier': 'mc_package'}
+[0.000865] (-) JobUnselected: {'identifier': 'mppt_package'}
+[0.000880] (-) JobUnselected: {'identifier': 'rf_package'}
+[0.000895] (-) JobUnselected: {'identifier': 'test_package'}
+[0.000912] (battery_package) JobQueued: {'identifier': 'battery_package', 'dependencies': OrderedDict()}
+[0.000931] (battery_package) JobStarted: {'identifier': 'battery_package'}
+[0.099688] (-) TimerEvent: {}
+[0.199940] (-) TimerEvent: {}
+[0.300209] (-) TimerEvent: {}
+[0.400475] (-) TimerEvent: {}
+[0.500726] (-) TimerEvent: {}
+[0.532730] (battery_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/battery_package', 'build', '--build-base', '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/battery_package/build', 'install', '--record', '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/battery_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/battery_package', 'env': {'LANGUAGE': 'en_IN:en', 'USER': 'jaay', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'PERL_LOCAL_LIB_ROOT': '/home/jaay/perl5', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/jaay', 'OLDPWD': '/home/jaay/Agnirath/Agnirath_LVS_Strategy', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/jaay/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '2746', 'SYSTEMD_EXEC_PID': '3392', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'P9K_TTY': 'old', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '76161', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'ROS_DISTRO': 'iron', 'LOGNAME': 'jaay', 'GTK_IM_MODULE': 'ibus', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '8:39930', 'WINDOWID': '58720271', '_P9K_SSH_TTY': '/dev/pts/2', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'jaay', 'TERM': 'xterm-kitty', 'PERL_MB_OPT': '--install_base "/home/jaay/perl5"', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/iron/bin:/home/jaay/.cargo/bin:/home/jaay/.local/bin/home/jaay/perl5/bin:/home/jaay/.local/bin:/home/jaay/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jaay/.spicetify', 'SESSION_MANAGER': 'local/zephyrus-g15:@/tmp/.ICE-unix/3219,unix/zephyrus-g15:/tmp/.ICE-unix/3219', 'INVOCATION_ID': 'af021935b8014481a395eecda21cef8c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'PERL5LIB': '/home/jaay/perl5/lib/perl5', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'ROS_DOMAIN_ID': '0', 'SHELL': '/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '1', 'PERL_MM_OPT': 'INSTALL_BASE=/home/jaay/perl5', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/battery_package', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/jaay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', '_P9K_TTY': '/dev/pts/2', 'PYTHONPATH': '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/battery_package/prefix_override:/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/battery_package/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.600819] (-) TimerEvent: {}
+[0.701052] (-) TimerEvent: {}
+[0.744005] (battery_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.744406] (battery_package) StdoutLine: {'line': b'writing ../../build/battery_package/battery_package.egg-info/PKG-INFO\n'}
+[0.744552] (battery_package) StdoutLine: {'line': b'writing dependency_links to ../../build/battery_package/battery_package.egg-info/dependency_links.txt\n'}
+[0.744657] (battery_package) StdoutLine: {'line': b'writing entry points to ../../build/battery_package/battery_package.egg-info/entry_points.txt\n'}
+[0.744750] (battery_package) StdoutLine: {'line': b'writing requirements to ../../build/battery_package/battery_package.egg-info/requires.txt\n'}
+[0.744826] (battery_package) StdoutLine: {'line': b'writing top-level names to ../../build/battery_package/battery_package.egg-info/top_level.txt\n'}
+[0.746056] (battery_package) StdoutLine: {'line': b"reading manifest file '../../build/battery_package/battery_package.egg-info/SOURCES.txt'\n"}
+[0.746185] (battery_package) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.746705] (battery_package) StdoutLine: {'line': b"writing manifest file '../../build/battery_package/battery_package.egg-info/SOURCES.txt'\n"}
+[0.746800] (battery_package) StdoutLine: {'line': b'running build\n'}
+[0.746865] (battery_package) StdoutLine: {'line': b'running build_py\n'}
+[0.746942] (battery_package) StdoutLine: {'line': b'copying battery_package/battery_node.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/battery_package/build/lib/battery_package\n'}
+[0.747110] (battery_package) StdoutLine: {'line': b'running install\n'}
+[0.747315] (battery_package) StdoutLine: {'line': b'running install_lib\n'}
+[0.747731] (battery_package) StdoutLine: {'line': b'copying /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/battery_package/build/lib/battery_package/battery_node.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/battery_package/lib/python3.10/site-packages/battery_package\n'}
+[0.748335] (battery_package) StdoutLine: {'line': b'byte-compiling /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/battery_package/lib/python3.10/site-packages/battery_package/battery_node.py to battery_node.cpython-310.pyc\n'}
+[0.752154] (battery_package) StdoutLine: {'line': b'running install_data\n'}
+[0.752603] (battery_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.753650] (battery_package) StdoutLine: {'line': b"removing '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/battery_package/lib/python3.10/site-packages/battery_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.753855] (battery_package) StdoutLine: {'line': b'Copying ../../build/battery_package/battery_package.egg-info to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/battery_package/lib/python3.10/site-packages/battery_package-0.0.0-py3.10.egg-info\n'}
+[0.754348] (battery_package) StdoutLine: {'line': b'running install_scripts\n'}
+[0.767742] (battery_package) StdoutLine: {'line': b'Installing battery_node script to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/battery_package/lib/battery_package\n'}
+[0.767992] (battery_package) StdoutLine: {'line': b"writing list of installed files to '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/battery_package/install.log'\n"}
+[0.790084] (battery_package) CommandEnded: {'returncode': 0}
+[0.799195] (battery_package) JobEnded: {'identifier': 'battery_package', 'rc': 0}
+[0.799628] (-) EventReactorShutdown: {}

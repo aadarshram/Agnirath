@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/battery_package/battery_package.egg-info/PKG-INFO
+../../build/battery_package/battery_package.egg-info/SOURCES.txt
+../../build/battery_package/battery_package.egg-info/dependency_links.txt
+../../build/battery_package/battery_package.egg-info/entry_points.txt
+../../build/battery_package/battery_package.egg-info/requires.txt
+../../build/battery_package/battery_package.egg-info/top_level.txt
+../../build/battery_package/battery_package.egg-info/zip-safe
+battery_package/__init__.py
+battery_package/battery_node.py
+resource/battery_package
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,63 @@
+[0.013s] Invoking command in '/home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/build/message_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /home/jaay/.local/bin/cmake /home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/src/message_interfaces -DCMAKE_INSTALL_PREFIX=/home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/install/message_interfaces
+[0.101s] -- The C compiler identification is GNU 11.3.0
+[0.162s] -- The CXX compiler identification is GNU 11.3.0
+[0.171s] -- Detecting C compiler ABI info
+[0.219s] -- Detecting C compiler ABI info - done
+[0.227s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.227s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.231s] -- Detecting CXX compiler ABI info
+[0.284s] -- Detecting CXX compiler ABI info - done
+[0.292s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.292s] -- Detecting CXX compile features
+[0.293s] -- Detecting CXX compile features - done
+[0.295s] -- Found ament_cmake: 2.0.2 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.553s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.620s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[0.676s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.687s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.703s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.723s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.815s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[0.825s] -- Found rosidl_adapter: 4.0.0 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[0.917s] [31mCMake Error at /opt/ros/iron/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[0.917s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[0.917s]   message_interfaces --arguments-file
+[0.917s]   /home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/build/message_interfaces/rosidl_adapter__arguments__message_interfaces.json
+[0.918s]   --output-dir
+[0.918s]   /home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/build/message_interfaces/rosidl_adapter/message_interfaces
+[0.918s]   --output-file
+[0.918s]   /home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/build/message_interfaces/rosidl_adapter/message_interfaces.idls)
+[0.918s]   returned error code 1:
+[0.918s] 
+[0.918s]   Traceback (most recent call last):
+[0.918s] 
+[0.918s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.918s]       return _run_code(code, main_globals, None,
+[0.918s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.918s]       exec(code, run_globals)
+[0.919s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.919s]       sys.exit(main())
+[0.919s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.919s]       abs_idl_file = convert_to_idl(
+[0.919s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.919s]       return convert_msg_to_idl(
+[0.919s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.919s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.919s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 545, in parse_message_string
+[0.919s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.919s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 389, in __init__
+[0.919s]       self.base_type = BaseType(
+[0.919s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 206, in __init__
+[0.919s]       raise InvalidResourceName(
+[0.919s] 
+[0.919s]   rosidl_adapter.parser.InvalidResourceName: 'num' is an invalid message
+[0.919s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.920s] 
+[0.920s] Call Stack (most recent call first):
+[0.920s]   /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.920s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[0.920s] 
+[0.920s] [0m
+[0.920s] -- Configuring incomplete, errors occurred!
+[0.927s] Invoked command in '/home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/build/message_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/iron /home/jaay/.local/bin/cmake /home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/src/message_interfaces -DCMAKE_INSTALL_PREFIX=/home/jaay/repositories/Agnirath_LVS_Strategy/aarush_ros/install/message_interfaces

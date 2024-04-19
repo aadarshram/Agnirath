@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.000354] (-) JobUnselected: {'identifier': 'battery_package'}
+[0.000452] (-) JobUnselected: {'identifier': 'can_package'}
+[0.000669] (-) JobUnselected: {'identifier': 'control_package'}
+[0.000696] (-) JobUnselected: {'identifier': 'display_package'}
+[0.000797] (-) JobUnselected: {'identifier': 'gps_package'}
+[0.000824] (-) JobUnselected: {'identifier': 'imu_package'}
+[0.000837] (-) JobUnselected: {'identifier': 'logging_package'}
+[0.000853] (-) JobUnselected: {'identifier': 'main_package'}
+[0.001197] (-) JobUnselected: {'identifier': 'mc_package'}
+[0.001210] (-) JobUnselected: {'identifier': 'mppt_package'}
+[0.001427] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001505] (-) JobUnselected: {'identifier': 'rf_package'}
+[0.001518] (-) JobUnselected: {'identifier': 'test_package'}
+[0.001539] (daq_package) JobQueued: {'identifier': 'daq_package', 'dependencies': OrderedDict()}
+[0.001597] (daq_package) JobStarted: {'identifier': 'daq_package'}
+[0.099134] (-) TimerEvent: {}
+[0.199391] (-) TimerEvent: {}
+[0.299650] (-) TimerEvent: {}
+[0.399890] (-) TimerEvent: {}
+[0.478786] (daq_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/daq_package', 'build', '--build-base', '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/build', 'install', '--record', '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/daq_package', 'env': {'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'USER': 'jaay', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SSH_AGENT_PID': '2554', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/jaay', 'OLDPWD': '/home/jaay', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'LESS': '-R', 'DESKTOP_SESSION': 'qtile', 'TERM_PROGRAM_VERSION': '1.82.2', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ZSH': '/home/jaay/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'P9K_TTY': 'old', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '33311', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/qtile.mandatory.path', 'ROS_DISTRO': 'iron', 'LOGNAME': 'jaay', 'GTK_IM_MODULE': 'ibus', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/0', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/qtile.default.path', 'ROS_VERSION': '2', 'USER_ZDOTDIR': '/home/jaay', 'XDG_SESSION_ID': '3', 'COPPELIASIM_ROOT_DIR': '/home/jaay/Repositories/CoppeliaSim', 'TERM': 'xterm-256color', 'PATH': '~/.config/rofi/scripts:/home/jaay/.local/bin:~/.config/rofi/scripts:/home/jaay/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jaay/.spicetify:/home/jaay/.spicetify', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': '', 'VSCODE_INJECTION': '1', 'XAUTHORITY': '/home/jaay/.Xauthority', 'XDG_SESSION_DESKTOP': '', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-4856f55270.sock', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXigq3f7/agent.2473', 'ORIGINAL_XDG_CURRENT_DESKTOP': '', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'XDG_VTNR': '1', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'VSCODE_NONCE': 'ed57aadb-8d6f-4fcf-8d25-91de8f0f0943', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package', 'XDG_DATA_DIRS': '/usr/share/qtile:/home/jaay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-qtile:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'ZDOTDIR': '/home/jaay', '_P9K_TTY': '/dev/pts/0', 'PYTHONPATH': '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/prefix_override:/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.499991] (-) TimerEvent: {}
+[0.600294] (-) TimerEvent: {}
+[0.678457] (daq_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.678879] (daq_package) StdoutLine: {'line': b'creating ../../build/daq_package/daq_package.egg-info\n'}
+[0.679088] (daq_package) StdoutLine: {'line': b'writing ../../build/daq_package/daq_package.egg-info/PKG-INFO\n'}
+[0.679273] (daq_package) StdoutLine: {'line': b'writing dependency_links to ../../build/daq_package/daq_package.egg-info/dependency_links.txt\n'}
+[0.679406] (daq_package) StdoutLine: {'line': b'writing entry points to ../../build/daq_package/daq_package.egg-info/entry_points.txt\n'}
+[0.679488] (daq_package) StdoutLine: {'line': b'writing requirements to ../../build/daq_package/daq_package.egg-info/requires.txt\n'}
+[0.679543] (daq_package) StdoutLine: {'line': b'writing top-level names to ../../build/daq_package/daq_package.egg-info/top_level.txt\n'}
+[0.680366] (daq_package) StdoutLine: {'line': b"writing manifest file '../../build/daq_package/daq_package.egg-info/SOURCES.txt'\n"}
+[0.681414] (daq_package) StdoutLine: {'line': b"reading manifest file '../../build/daq_package/daq_package.egg-info/SOURCES.txt'\n"}
+[0.681496] (daq_package) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.681940] (daq_package) StdoutLine: {'line': b"writing manifest file '../../build/daq_package/daq_package.egg-info/SOURCES.txt'\n"}
+[0.682037] (daq_package) StdoutLine: {'line': b'running build\n'}
+[0.682100] (daq_package) StdoutLine: {'line': b'running build_py\n'}
+[0.682186] (daq_package) StdoutLine: {'line': b'creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/build\n'}
+[0.682260] (daq_package) StdoutLine: {'line': b'creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/build/lib\n'}
+[0.682326] (daq_package) StdoutLine: {'line': b'creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/build/lib/daq_package\n'}
+[0.682386] (daq_package) StdoutLine: {'line': b'copying daq_package/__init__.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/build/lib/daq_package\n'}
+[0.682449] (daq_package) StdoutLine: {'line': b'copying daq_package/daq_node.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/build/lib/daq_package\n'}
+[0.682501] (daq_package) StdoutLine: {'line': b'running install\n'}
+[0.682597] (daq_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.682684] (daq_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.682749] (daq_package) StdoutLine: {'line': b'running install_lib\n'}
+[0.683112] (daq_package) StdoutLine: {'line': b'creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/lib/python3.10/site-packages/daq_package\n'}
+[0.683183] (daq_package) StdoutLine: {'line': b'copying /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/build/lib/daq_package/__init__.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/lib/python3.10/site-packages/daq_package\n'}
+[0.683250] (daq_package) StdoutLine: {'line': b'copying /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/build/lib/daq_package/daq_node.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/lib/python3.10/site-packages/daq_package\n'}
+[0.683527] (daq_package) StdoutLine: {'line': b'byte-compiling /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/lib/python3.10/site-packages/daq_package/__init__.py to __init__.cpython-310.pyc\n'}
+[0.683659] (daq_package) StdoutLine: {'line': b'byte-compiling /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/lib/python3.10/site-packages/daq_package/daq_node.py to daq_node.cpython-310.pyc\n'}
+[0.683791] (daq_package) StdoutLine: {'line': b'running install_data\n'}
+[0.684099] (daq_package) StdoutLine: {'line': b'creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/share/ament_index\n'}
+[0.684183] (daq_package) StdoutLine: {'line': b'creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/share/ament_index/resource_index\n'}
+[0.684241] (daq_package) StdoutLine: {'line': b'creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/share/ament_index/resource_index/packages\n'}
+[0.684319] (daq_package) StdoutLine: {'line': b'copying resource/daq_package -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/share/ament_index/resource_index/packages\n'}
+[0.684371] (daq_package) StdoutLine: {'line': b'copying package.xml -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/share/daq_package\n'}
+[0.684420] (daq_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.685355] (daq_package) StdoutLine: {'line': b'Copying ../../build/daq_package/daq_package.egg-info to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/lib/python3.10/site-packages/daq_package-0.0.0-py3.10.egg-info\n'}
+[0.685869] (daq_package) StdoutLine: {'line': b'running install_scripts\n'}
+[0.699359] (daq_package) StdoutLine: {'line': b'Installing daq_node script to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/daq_package/lib/daq_package\n'}
+[0.699586] (daq_package) StdoutLine: {'line': b"writing list of installed files to '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/daq_package/install.log'\n"}
+[0.700366] (-) TimerEvent: {}
+[0.724762] (daq_package) CommandEnded: {'returncode': 0}
+[0.754738] (daq_package) JobEnded: {'identifier': 'daq_package', 'rc': 0}
+[0.756273] (-) EventReactorShutdown: {}

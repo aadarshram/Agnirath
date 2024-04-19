@@ -1,0 +1,29 @@
+[0.482s] Invoking command in '/home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/test_package': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/test_package/prefix_override:/home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_package build --build-base /home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/test_package/build install --record /home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/test_package/install.log --single-version-externally-managed
+[0.674s] running egg_info
+[0.674s] writing ../../build/test_package/test_package.egg-info/PKG-INFO
+[0.674s] writing dependency_links to ../../build/test_package/test_package.egg-info/dependency_links.txt
+[0.674s] writing entry points to ../../build/test_package/test_package.egg-info/entry_points.txt
+[0.674s] writing requirements to ../../build/test_package/test_package.egg-info/requires.txt
+[0.674s] writing top-level names to ../../build/test_package/test_package.egg-info/top_level.txt
+[0.675s] reading manifest file '../../build/test_package/test_package.egg-info/SOURCES.txt'
+[0.675s] adding license file 'LICENSE'
+[0.676s] writing manifest file '../../build/test_package/test_package.egg-info/SOURCES.txt'
+[0.676s] running build
+[0.676s] running build_py
+[0.676s] copying test_package/sub.py -> /home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/test_package/build/lib/test_package
+[0.676s] running install
+[0.677s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.677s]   warnings.warn(
+[0.677s] running install_lib
+[0.677s] copying /home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/test_package/build/lib/test_package/sub.py -> /home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/python3.10/site-packages/test_package
+[0.677s] byte-compiling /home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/python3.10/site-packages/test_package/sub.py to sub.cpython-310.pyc
+[0.678s] running install_data
+[0.678s] running install_egg_info
+[0.679s] removing '/home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/python3.10/site-packages/test_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.679s] Copying ../../build/test_package/test_package.egg-info to /home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/python3.10/site-packages/test_package-0.0.0-py3.10.egg-info
+[0.680s] running install_scripts
+[0.693s] Installing pub_node script to /home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/test_package
+[0.693s] Installing pub_sub_node script to /home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/test_package
+[0.693s] Installing sub_node script to /home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/test_package
+[0.693s] writing list of installed files to '/home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/test_package/install.log'
+[0.714s] Invoked command in '/home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/test_package' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/test_package/prefix_override:/home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_package build --build-base /home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/test_package/build install --record /home/veadesh/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/test_package/install.log --single-version-externally-managed

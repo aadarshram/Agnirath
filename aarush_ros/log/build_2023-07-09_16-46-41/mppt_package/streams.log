@@ -1,0 +1,38 @@
+[3.568s] Invoking command in '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/mppt_package': PYTHONPATH=/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/prefix_override:/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/mppt_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mppt_package build --build-base /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/build install --record /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/install.log --single-version-externally-managed
+[4.048s] running egg_info
+[4.049s] creating ../../build/mppt_package/mppt_package.egg-info
+[4.050s] writing ../../build/mppt_package/mppt_package.egg-info/PKG-INFO
+[4.050s] writing dependency_links to ../../build/mppt_package/mppt_package.egg-info/dependency_links.txt
+[4.050s] writing entry points to ../../build/mppt_package/mppt_package.egg-info/entry_points.txt
+[4.050s] writing requirements to ../../build/mppt_package/mppt_package.egg-info/requires.txt
+[4.050s] writing top-level names to ../../build/mppt_package/mppt_package.egg-info/top_level.txt
+[4.050s] writing manifest file '../../build/mppt_package/mppt_package.egg-info/SOURCES.txt'
+[4.053s] reading manifest file '../../build/mppt_package/mppt_package.egg-info/SOURCES.txt'
+[4.053s] adding license file 'LICENSE'
+[4.054s] writing manifest file '../../build/mppt_package/mppt_package.egg-info/SOURCES.txt'
+[4.054s] running build
+[4.054s] running build_py
+[4.054s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/build
+[4.054s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/build/lib
+[4.055s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/build/lib/mppt_package
+[4.055s] copying mppt_package/mppt_node.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/build/lib/mppt_package
+[4.055s] copying mppt_package/__init__.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/build/lib/mppt_package
+[4.055s] running install
+[4.055s] running install_lib
+[4.056s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/mppt_package/lib/python3.10/site-packages/mppt_package
+[4.057s] copying /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/build/lib/mppt_package/mppt_node.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/mppt_package/lib/python3.10/site-packages/mppt_package
+[4.057s] copying /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/build/lib/mppt_package/__init__.py -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/mppt_package/lib/python3.10/site-packages/mppt_package
+[4.057s] byte-compiling /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/mppt_package/lib/python3.10/site-packages/mppt_package/mppt_node.py to mppt_node.cpython-310.pyc
+[4.059s] byte-compiling /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/mppt_package/lib/python3.10/site-packages/mppt_package/__init__.py to __init__.cpython-310.pyc
+[4.059s] running install_data
+[4.060s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/mppt_package/share/ament_index
+[4.060s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/mppt_package/share/ament_index/resource_index
+[4.061s] creating /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/mppt_package/share/ament_index/resource_index/packages
+[4.061s] copying resource/mppt_package -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/mppt_package/share/ament_index/resource_index/packages
+[4.061s] copying package.xml -> /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/mppt_package/share/mppt_package
+[4.061s] running install_egg_info
+[4.063s] Copying ../../build/mppt_package/mppt_package.egg-info to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/mppt_package/lib/python3.10/site-packages/mppt_package-0.0.0-py3.10.egg-info
+[4.064s] running install_scripts
+[4.091s] Installing mppt_node script to /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/mppt_package/lib/mppt_package
+[4.092s] writing list of installed files to '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/install.log'
+[4.167s] Invoked command in '/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/src/mppt_package' returned '0': PYTHONPATH=/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/prefix_override:/home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/install/mppt_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mppt_package build --build-base /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/build install --record /home/jaay/Agnirath/Agnirath_LVS_Strategy/aarush_ros/build/mppt_package/install.log --single-version-externally-managed

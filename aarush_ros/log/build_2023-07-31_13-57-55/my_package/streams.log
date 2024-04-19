@@ -1,0 +1,24 @@
+[2.720s] Invoking command in '/home/ubuntu/Old_LV/aarush_ros/src/my_package': PYTHONPATH=/home/ubuntu/Old_LV/aarush_ros/build/my_package/prefix_override:/home/ubuntu/Old_LV/aarush_ros/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/ubuntu/Old_LV/aarush_ros/build/my_package/build install --record /home/ubuntu/Old_LV/aarush_ros/build/my_package/install.log --single-version-externally-managed
+[3.771s] running egg_info
+[3.776s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[3.779s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[3.781s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[3.782s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[3.784s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[3.796s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[3.798s] adding license file 'LICENSE'
+[3.802s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[3.803s] running build
+[3.804s] running build_py
+[3.806s] running install
+[3.808s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.808s]   warnings.warn(
+[3.811s] running install_lib
+[3.819s] running install_data
+[3.823s] running install_egg_info
+[3.833s] removing '/home/ubuntu/Old_LV/aarush_ros/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[3.835s] Copying ../../build/my_package/my_package.egg-info to /home/ubuntu/Old_LV/aarush_ros/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[3.842s] running install_scripts
+[3.935s] Installing my_node script to /home/ubuntu/Old_LV/aarush_ros/install/my_package/lib/my_package
+[3.936s] writing list of installed files to '/home/ubuntu/Old_LV/aarush_ros/build/my_package/install.log'
+[4.081s] Invoked command in '/home/ubuntu/Old_LV/aarush_ros/src/my_package' returned '0': PYTHONPATH=/home/ubuntu/Old_LV/aarush_ros/build/my_package/prefix_override:/home/ubuntu/Old_LV/aarush_ros/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/ubuntu/Old_LV/aarush_ros/build/my_package/build install --record /home/ubuntu/Old_LV/aarush_ros/build/my_package/install.log --single-version-externally-managed
