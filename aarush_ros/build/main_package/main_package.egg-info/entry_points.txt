@@ -1,3 +1,0 @@
-[console_scripts]
-main_node = main_package.main_node_1:main
-

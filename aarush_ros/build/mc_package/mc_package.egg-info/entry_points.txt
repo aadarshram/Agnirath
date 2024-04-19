@@ -1,3 +1,0 @@
-[console_scripts]
-mc_node = mc_package.mc_node:main
-

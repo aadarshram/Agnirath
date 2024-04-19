@@ -1,3 +1,0 @@
-[console_scripts]
-peripheral_node = peripheral_package.peripheral_node:main
-

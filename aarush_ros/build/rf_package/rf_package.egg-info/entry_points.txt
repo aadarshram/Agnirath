@@ -1,3 +1,0 @@
-[console_scripts]
-rf_node = rf_package.rf_node:main
-
